@@ -20,11 +20,16 @@ Il faudra bien lire le contenu et faire les exercices qui te seront donnés au f
   </body>
 </html>
 ```
+Explication de l'anatomie du document.
+
 Ce document contient les éléments suivants:
 * `<!DOCTYPE html>`: Il s'agit du doctype
-* `<html></html>` :
+* `<html></html>` : C'est dans ces balises que se trouverons l'ensemble de du code html
+* `<head></head>`: C'est la tête. C'est pour spécifier des choses qui n'appraittrons pas dans le corps de la page.
+* `<meta charset="utf-8">` : C'est pour dire qu'on peut afficher l'ensemble des caractères possibles
+* `<title>Ma page de test</title>`: Le titre de la page. C'est ce qui va s'afficher sur l'onglet du navigateur
+* `<body></body>`: Le corps de la page html
 
-</pre>
 
 
 ```html runnable
