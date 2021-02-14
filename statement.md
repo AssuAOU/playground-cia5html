@@ -21,7 +21,9 @@ Il faudra bien lire le contenu et faire les exercices qui te seront donnés au f
 </html>
 ```
 Ce document contient:
-<pre> <!DOCTYPE html> <pre> Il s'agit du doctype
+<pre> <!DOCTYPE html> Il s'agit du doctype
+
+</pre>
 
 
 ```html runnable
