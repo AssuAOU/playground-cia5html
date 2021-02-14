@@ -21,7 +21,7 @@ Il faudra bien lire le contenu et faire les exercices qui te seront donnés au f
 </html>
 ```
 Ce document contient:
-<!-- <!DOCTYPE html>' Il s'agit du doctype -->
+&#60!DOCTYPE html &#62 Il s'agit du doctype
 
 
 ```html runnable
