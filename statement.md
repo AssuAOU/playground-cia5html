@@ -21,7 +21,7 @@ Il faudra bien lire le contenu et faire les exercices qui te seront donnés au f
 </html>
 ```
 Ce document contient:
-&#60!DOCTYPE html &#62 Il s'agit du doctype
+<pre> <!DOCTYPE html> <pre> Il s'agit du doctype
 
 
 ```html runnable
@@ -55,3 +55,4 @@ Ecrire
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_HTML>
 <https://www.w3.org/Style/Examples/011/firstcss.fr.html>
 <https://assemble.io/docs/Cheatsheet-Markdown.html>
+<https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web>
