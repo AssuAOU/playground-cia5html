@@ -21,7 +21,7 @@ Il faudra bien lire le contenu et faire les exercices qui te seront donnés au f
 </html>
 ```
 Ce document contient:
-'&lt;!DOCTYPE html&gt;' Il s'agit du doctype
+`&lt;!DOCTYPE html&gt;` Il s'agit du doctype
 
 </pre>
 
