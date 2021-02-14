@@ -3,6 +3,7 @@
 Nous allons apprendre le HTML et CSS ensemble dans ce tutoriel.
 
 # Le HTML
+<p>Voici un paragraphe</p>
 
 ```html runnable
 <!DOCTYPE html>
