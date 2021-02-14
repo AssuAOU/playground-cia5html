@@ -8,6 +8,7 @@ Nous allons apprendre le HTML et CSS ensemble dans ce tutoriel.
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Ma première page avec du style</title>
 </head>
 
