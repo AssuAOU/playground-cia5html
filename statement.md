@@ -1,11 +1,30 @@
-# Welcome!
+# Bienvenue!
 
-This Python template lets you get started quickly with a simple one-page playground.
+Nous allons apprendre le HTML et CSS ensemble dans ce tutoriel.
 
-```python runnable
-print('Hello World!')
+# Le HTML
+
+```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ma première page avec du style</title>
+</head>
+
+<body>
+
+<!-- Contenu principal -->
+<h1>Ma première page avec du style</h1>
+
+<p>Bienvenue sur ma page avec du style! 
+
+<p>Je devrais étayer, mais je ne sais comment encore.
+
+</body>
+</html>
 ```
 
-# Advanced usage
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
+###### Exercice 1 :
+Ecrire une fonction f
+---
