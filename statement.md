@@ -4,10 +4,8 @@ Nous allons apprendre le HTML et CSS ensemble dans ce tutoriel.
 Duant ce tutoriel, tu vas apprendre à créer une page html pas à pas.
 Il faudra bien lire le contenu et faire les exercices qui te seront donnés au fur et à mesure.
 
-# Le HTML
 
-
-# Anatomie d'un document HTML
+# 1.Anatomie d'un document HTML
 ```html
 <!DOCTYPE html>
 <html>
@@ -30,7 +28,7 @@ Ce document contient les éléments suivants:
 * `<title>Ma page de test</title>`: Le titre de la page. C'est ce qui va s'afficher sur l'onglet du navigateur
 * `<body></body>`: Le corps de la page html
 
-
+# 1. Le langage HTML
 
 ```html runnable
 <!DOCTYPE html>
