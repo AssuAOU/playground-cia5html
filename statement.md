@@ -21,7 +21,7 @@ Il faudra bien lire le contenu et faire les exercices qui te seront donnés au f
 </html>
 ```
 Ce document contient:
-'<!DOCTYPE html>' Le doctype
+<!-- <!DOCTYPE html>' Il s'agit du doctype -->
 
 
 ```html runnable
@@ -48,6 +48,7 @@ Ce document contient:
 
 ###### Exercice 1 :
 Ecrire
+![Minion](http://octodex.github.com/images/minion.png)
 ---
 # Sources
 
