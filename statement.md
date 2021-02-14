@@ -28,7 +28,7 @@ Ce document contient les éléments suivants:
 * `<title>Ma page de test</title>`: Le titre de la page. C'est ce qui va s'afficher sur l'onglet du navigateur
 * `<body></body>`: Le corps de la page html
 
-# 1. Le langage HTML
+# 2. Le langage HTML
 
 ```html runnable
 <!DOCTYPE html>
@@ -50,7 +50,6 @@ Ce document contient les éléments suivants:
 </body>
 </html>
 ```
-
 
 ###### Exercice 1 :
 Ecrire
