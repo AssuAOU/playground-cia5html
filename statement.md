@@ -3,7 +3,7 @@
 Nous allons apprendre le HTML et CSS ensemble dans ce tutoriel.
 
 # Le HTML
---<p>Voici un paragraphe</p>
+
 
 ```html runnable
 <!DOCTYPE html>
@@ -30,3 +30,6 @@ Nous allons apprendre le HTML et CSS ensemble dans ce tutoriel.
 ###### Exercice 1 :
 Ecrire une fonction f
 ---
+# Sources
+
+<https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_HTML>
