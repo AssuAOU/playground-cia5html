@@ -20,8 +20,9 @@ Il faudra bien lire le contenu et faire les exercices qui te seront donnés au f
   </body>
 </html>
 ```
-Ce document contient:
-`<!DOCTYPE html>` Il s'agit du doctype
+Ce document contient les éléments suivants:
+* `<!DOCTYPE html>`: Il s'agit du doctype
+* `<html></html>` :
 
 </pre>
 
