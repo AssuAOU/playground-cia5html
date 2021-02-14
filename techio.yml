@@ -1,4 +1,10 @@
 title: Apprendre le HTML et le CSS
 plan:
-- title: Apprendre le HTML et le CSS
+- title: Bienvenue
   statement: statement.md
+  
+- title: Le HTML
+  statement: Le_HTML.md
+  
+- title: Le CSS
+  statement: Le_CSS.md
