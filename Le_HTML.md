@@ -83,7 +83,7 @@ Pour l'instant, on a une page vide. On n'exécute pas le code à travers un navi
 
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
-Le code est à saisir dans "body"
+Le code est à saisir est le code quise trouve entre les commentaires de début et fin."
 <!-- Début code à copier -->
 
 ```html
@@ -95,20 +95,21 @@ Le code est à saisir dans "body"
 </head>
 
 <body>
-    <!-- Menu de navigation du site -->
+    <!-- Début Menu de navigation du site -->
     <ul class="navbar">
         <li><a href="index.html">Page d'accueil</a>
         <li><a href="Pogramme officiel.html">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
     </ul>
-    <!-- Fin menu de navigation-->
+    <!-- Fin Menu de navigation du site-->
 </body>
 
 </html>
 ```
 <!-- Fin code à copier -->
 
-A toi:
+### A toi:
+Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que ça donne.
 
 ```html runnable
 <!DOCTYPE html>
@@ -119,6 +120,11 @@ A toi:
 </head>
 
 <body>
+    <!-- Début Menu de navigation du site -->
+   
+
+
+    <!-- Fin Menu de navigation du site-->
 </body>
 
 </html>
