@@ -25,7 +25,7 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 
 # 1.Squelette d'un document HTML
 
-<p>Voici a quoi un document html.<br></p>
+<p>Voici a quoi ressemble un document html.<br></p>
 
 ```html
 <!DOCTYPE html>
@@ -71,7 +71,8 @@ Le titre sera La SNT au lycée </p>
 
 </html>
 ```
-*** A toi maintenant
+### A toi:
+Recopie l'ensemble du code ci-dessus puis clique sur ***RUN** pour voir ce que ça donne.
 
 ```html runnable
 <!DOCTYPE html>
@@ -79,11 +80,13 @@ Le titre sera La SNT au lycée </p>
 
 </html>
 ```
-Pour l'instant, on a une page vide. On n'exécute pas le code à travers un navigateur. Donc on ne voit pas le titre de la page.
+***Remarque:*** Pour l'instant, on a une page vide.
+C'est normal car on n'exécute pas le code à travers un navigateur.
+Donc on ne voit pas le titre de la page.
 
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
-Le code est à saisir est le code quise trouve entre les commentaires de début et fin."
+Le code est à recopier est le code qui se trouve entre les commentaires de début et fin.
 <!-- Début code à copier -->
 
 ```html
