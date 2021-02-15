@@ -81,6 +81,7 @@ Pour l'instant, on a une page vide. On n'exécute pas le code à travers un navi
 
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
+<!-- Début code à copier -->
 
 ```
 <!DOCTYPE html>
@@ -93,18 +94,20 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 <body>
     <!-- Menu de navigation du site -->
 ```
+```html
    `<ul class="navbar">`
         <li><a href="index.html">Page d'accueil</a>
         <li><a href="Pogramme officiel.html">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
     </ul>
 ```
+```
 </body>
 
 </html>
 <p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
 ```
-
+<!-- Fin code à copier -->
 
 A toi:
 
