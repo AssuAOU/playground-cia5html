@@ -52,7 +52,7 @@ Ce document contient les éléments suivants:
 <h2>Le titre</h2>
 <p>Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
 Nous allons commencer par le squelette et y rajouter des éléments au fur et à mesure.<br>
-Il est recommandé de saisir manuellement l'ensemble du code.
+Il est recommandé de saisir manuellement l'ensemble du code. Mais vous pouvez aussu copier-coller le code html
 Recopier donc le squelette html et y rajouter le titre dans la fenêtre suivante. Puis cliquer sur "Run" pour voir le résultat final.<br>
 Le titre sera La SNT au lycée </p>
 
@@ -75,10 +75,47 @@ Le titre sera La SNT au lycée </p>
 <!DOCTYPE html>
 <html>
 
+</html>
+```
+Pour l'instant, on a une page vide. On n'exécute pas le code à travers un navigateur. Donc on ne voit pas le titre de la page.
+
+<h2>Le menu de navigation</h2>
+Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>La SNT au collège</title>
+</head>
+
+<body>
+    <!-- Menu de navigation du site -->
+    <ul class="navbar">
+        <li><a href="index.html">Page d'accueil</a>
+        <li><a href="Pogramme officiel.html">Programme officiel</a>
+        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
+    </ul>
+</body>
 
 </html>
 ```
-<h2>Le menu de navigation</h2>
+A toi:
+
+```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>La SNT au collège</title>
+</head>
+
+<body>
+</body>
+
+</html>
+```
 
 <h2>Le contenu principal</h2>
 
