@@ -1,7 +1,11 @@
 # Introduction
 
-Le HTML n'est pas un langage de programmation mais de balisage
+HyperText Markup Language (HTML) est le code utilisé pour structurer une page web et son contenu.
+Par exemple, le contenu de votre page pourra être structuré en un ensemble de paragraphes,
+une liste à puces ou avec des images et des tableaux de données.
+Ce tutoriel va vous fournit les bases de compréhension du HTML et de ses fonctions à travers la création d'une page WEB simple
 
+<h1>1. Qu'est-ce que le HTML?
 # 1.Anatomie d'un document HTML
 ```html
 <!DOCTYPE html>
