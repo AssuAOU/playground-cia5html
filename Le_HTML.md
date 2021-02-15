@@ -104,7 +104,7 @@ Le code est à recopier est le code qui se trouve entre les commentaires de déb
     <!-- Début Menu de navigation du site -->
     <ul class="navbar">
         <li><a href="index.html">Page d'accueil</a>
-        <li><a href="Pogramme officiel.html">Programme officiel</a>
+        <li><a href="https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/08/5/spe641_annexe_1063085.pdf">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
         <li><a href="Thème_2_WEB.html">Thème 2: Le WEB</a>
         <li><a href="Thème_3_Réseau_sociaux.html">Thème 3: Les réseaux sociaux</a>
