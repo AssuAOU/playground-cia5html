@@ -1,3 +1,4 @@
+color:red texte en rouge
 <h1>Introduction</h1>
 
 HyperText Markup Language (HTML) est le code utilisé pour structurer une page web et son contenu.
