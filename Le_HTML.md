@@ -89,7 +89,6 @@ Donc on ne voit pas le titre de la page.
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
 Le code est à recopier est le code qui se trouve entre les commentaires de début et fin.
-<!-- Début code à copier -->
 
 **Code à recopier**
 ```html
@@ -101,22 +100,17 @@ Le code est à recopier est le code qui se trouve entre les commentaires de déb
 </head>
 
 <body>
-    <!-- Début Menu de navigation du site -->
+    <!-- Début Menu de navigation du site à copier -->
     <ul class="navbar">
         <li><a href="index.html">Page d'accueil</a>
-        <li><a href="https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/08/5/spe641_annexe_1063085.pdf">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_2_WEB.html">Thème 2: Le WEB</a>
-        <li><a href="Thème_3_Réseau_sociaux.html">Thème 3: Les réseaux sociaux</a>
-        <li><a href="Thème_4_Les_donnees_structures.html">Thème 4: Les données structurés</a>
         <li><a href="Thème_Transverse_Python.html">Thème Transverse: La programmation python</a>
     </ul>
-    <!-- Fin Menu de navigation du site-->
+    <!-- Fin Menu de navigation du site à copier-->
 </body>
 
 </html>
 ```
-<!-- Fin code à copier -->
 
 ### A toi:
 Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que ça donne.
@@ -161,23 +155,17 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-        <li><a href="index.html">Page d'accueil</a>
-        <li><a href="https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/08/5/spe641_annexe_1063085.pdf">Programme officiel</a>
+       <li><a href="index.html">Page d'accueil</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_2_WEB.html">Thème 2: Le WEB</a>
-        <li><a href="Thème_3_Réseau_sociaux.html">Thème 3: Les réseaux sociaux</a>
-        <li><a href="Thème_4_Les_donnees_structures.html">Thème 4: Les données structurés</a>
         <li><a href="Thème_Transverse_Python.html">Thème Transverse: La programmation python</a>
     </ul>
-    <!-- Début Contenu Principal -->
+    <!-- Début Contenu Principal à copier -->
     <h1>La SNT au lycée</h1>
     <h2>Qu'est-ce que la SNT au lycée?</h2>
     <p>La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique et de programmation vus au collège.</p>
     <h2>Thème 1: Internet</h2>
     <p>Internet est un réseau informatique mondial.</p>
-    <h2>Le WEB</h2>
-    <p>Le WEB est l'ensemble des données reliées par des liens hypertextes, sur Internet</p>
-    <!-- Fin Contenu principal-->
+    <!-- Fin Contenu principal à copier-->
 </body>
 
 </html>
@@ -196,21 +184,14 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
     
     <ul class="navbar">
         <li><a href="index.html">Page d'accueil</a>
-        <li><a href="https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/08/5/spe641_annexe_1063085.pdf">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_2_WEB.html">Thème 2: Le WEB</a>
-        <li><a href="Thème_3_Réseau_sociaux.html">Thème 3: Les réseaux sociaux</a>
-        <li><a href="Thème_4_Les_donnees_structures.html">Thème 4: Les données structurés</a>
         <li><a href="Thème_Transverse_Python.html">Thème Transverse: La programmation python</a>
     </ul>
-    <!-- Début Contenu Principal -->
+    <!-- Début Contenu Principal à copier -->
     
 
 
-
-
-
-    <!-- Fin Contenu principal-->
+    <!-- Fin Contenu principal à copier-->
 </body>
 
 </html>
