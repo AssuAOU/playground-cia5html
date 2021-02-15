@@ -203,7 +203,7 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 
 
 <h2>Ajouter une image</h2>
-<p>Enfin, nous allons ajouter une image à notre page </p>
+<p>Nous allons ajouter une image à notre page.</p>
 
 **Code à recopier**
 ```html
@@ -271,6 +271,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 
 </html>
 ```
+<h2>Ajouter un lien</h2>
+<p>Nous allons finir cette partie en ajoutant un lien à la fin de notre page.
+Le WEB existe grâce aux liens.</p>
+<a href="https://pixees.fr/informatiquelycee/n_site/snt.html">Cours sur le SNT</a>
+
 
 ###### Sources :
 
