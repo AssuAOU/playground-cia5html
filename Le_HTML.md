@@ -1,4 +1,4 @@
-# Introduction
+<h1>Introduction</h1>
 
 HyperText Markup Language (HTML) est le code utilisé pour structurer une page web et son contenu.
 Par exemple, le contenu de votre page pourra être structuré en un ensemble de paragraphes,
@@ -6,7 +6,18 @@ une liste à puces ou avec des images et des tableaux de données.
 Ce tutoriel va vous fournit les bases de compréhension du HTML et de ses fonctions à travers la création d'une page WEB simple
 
 <h1>1. Qu'est-ce que le HTML?</h1>
-
+<p>HTML n'est pas un langage de programmation. On ne cherche pas à programmer le comportement d'un objet.
+On cherche plutôt à présenter un contenu (texte, image, son, vidéo).
+C'est un langage de balises qui définit la structure de votre contenu.
+HTML se compose d'une série d'éléments, utilisés pour entourer, ou envelopper, les diverses parties du contenu pour les faire apparaître ou agir d'une certaine façon. Les balises entourantes peuvent être rendues par un mot ou une image lien hypertexte vers quelque chose d'autre, un texte en italique, une police plus grande ou plus petite, et ainsi de suite.
+</p>
+<p>Par exemple, si on veut écrire:
+```html
+<p>La SNT, c'est génial</p>
+```
+Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe
+`<p>La SNT, c'est génial</p>`
+</p>
 # 1.Anatomie d'un document HTML
 ```html
 <!DOCTYPE html>
