@@ -201,16 +201,46 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 ```
 ***Analyse:*** On a maintenant une page, avec des liens, et un contenu minimaliste.
 
-<h2>Ajoutons de la couleur</h2>
-Nous allons maintenant ajouter de la couleur à notre page.
-
-<h2>Changement de la couleur de fond</h2>
 
 <h2>Ajouter une image</h2>
+<p>Enfin, nous allons ajouter une image à notre page </p>
 
+**Code à recopier**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>La SNT au collège</title>
+</head>
+
+<body>
+    
+    <ul class="navbar">
+       <li><a href="index.html">Page d'accueil</a>
+        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
+        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
+    </ul>
+    
+    <h1>La SNT au lycée</h1>
+    <h2>Qu'est-ce que la SNT au lycée?</h2>
+    <p>La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique et de programmation vus au collège.</p>
+    <h2>Thème 1: Internet</h2>
+    <p>Internet est un réseau informatique mondial.</p>
+    <h2>Thème Transverse: Python</h2>
+    <p>Python est un langage de programmation facile à prendre en main.</p>
+    
+    <!-- Début Contenu Principal à copier -->
+    <img src="https://octodex.github.com/images/collabocats.jpg" alt="" />
+    ![Minion](https://octodex.github.com/images/collabocats.jpg)
+    <!-- Fin Contenu principal à copier-->
+</body>
+
+</html>
+```
 ###### Exercice 1 :
 Ecrire
-![Minion](http://octodex.github.com/images/minion.png)
+![Minion](https://octodex.github.com/images/collabocats.jpg)
 ---
 <h1>Sources</h1>
 
