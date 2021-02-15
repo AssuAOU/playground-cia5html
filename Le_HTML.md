@@ -1,4 +1,4 @@
-<span style='color:white'>Vert</span>
+**texte en gras**
 <h1>Introduction</h1>
 
 HyperText Markup Language (HTML) est le code utilisé pour structurer une page web et son contenu.
