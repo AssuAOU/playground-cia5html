@@ -100,6 +100,7 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 </body>
 
 </html>
+<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
 ```
 A toi:
 
