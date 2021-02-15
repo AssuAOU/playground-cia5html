@@ -21,7 +21,7 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 `<p>La SNT, c'est génial!</p>`
 </p>
 
-# 1.Anatomie d'un document HTML
+# 1.Squelette d'un document HTML
 
 <p>Voici a quoi un document html.<br></p>
 
@@ -30,29 +30,57 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ma première page avec du style</title>
 </head>
 
 <body>
-    <h1> Je suis un titre</h1>
-    <h2> Je suis un sous titre</h2>
-    <p>Ceci est un paragraphe, du début à la fin</p>
 </body>
 
 </html>
 ```
 
-Explication de l'anatomie du document.
+*** Explication de l'anatomie du document.
 
 Ce document contient les éléments suivants:
 * `<!DOCTYPE html>`: Il s'agit du doctype
 * `<html></html>` : C'est dans ces balises que se trouverons l'ensemble de du code html
 * `<head></head>`: C'est la tête. C'est pour spécifier des choses qui n'appraittrons pas dans le corps de la page.
 * `<meta charset="utf-8">` : C'est pour dire qu'on peut afficher l'ensemble des caractères possibles
-* `<title>Ma page de test</title>`: Le titre de la page. C'est ce qui va s'afficher sur l'onglet du navigateur
-* `<body></body>`: Le corps de la page html
+* `<body></body>`: Le corps de la page html. C'est là ou on va écire nos paragraphes.
 
-# 2. Le langage HTML
+
+# 2. Notre première page
+<p>Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
+Nous allons commencer par le squelette et y rajouter des éléments au fur et à mesure.<br>
+Il est recommandé de saisir manuellement l'ensemble du code.
+Recopier donc le squelette html et y rajouter le titre dans la fenêtre suivante. Puis cliquer sur "Run" pour voir le résultat final.<br>
+Le titre sera La SNT au lycée </p>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>La SNT au collège</title>
+</head>
+
+<body>
+    <h1> Je suis un titre</h1>
+    <p>Ceci est un paragraphe</p>
+</body>
+
+</html>
+```
+*** A toi
+```html runnable
+<!DOCTYPE html>
+<html>
+
+
+</html>
+```
+
+
+
 
 ```html runnable
 <!DOCTYPE html>
