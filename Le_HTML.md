@@ -54,10 +54,11 @@ Ce document contient les éléments suivants:
 <h2>Le titre</h2>
 <p>Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
 Nous allons commencer par le squelette et y rajouter des éléments au fur et à mesure.<br>
-Il est recommandé de saisir manuellement l'ensemble du code. Mais vous pouvez aussu copier-coller le code html
-Recopier donc le squelette html et y rajouter le titre dans la fenêtre suivante. Puis cliquer sur "Run" pour voir le résultat final.<br>
+Il est recommandé de saisir manuellement l'ensemble du code. Mais tu peux aussi copier-coller le code html.
+Recopie donc le squelette html et y rajouter le titre de la page. Puis cliquer sur "Run" pour voir le résultat final.<br>
 Le titre sera La SNT au lycée </p>
 
+**Code à recopier:**
 ```html
 <!DOCTYPE html>
 <html>
@@ -72,8 +73,9 @@ Le titre sera La SNT au lycée </p>
 </html>
 ```
 ### A toi:
-Recopie l'ensemble du code ci-dessus puis clique sur ***RUN** pour voir ce que ça donne.
+Recopie l'ensemble du code ci-dessus  dans la zone de saisie puis clique sur ***RUN** pour voir ce que ça donne.
 
+**Zone de saisie:**
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -89,6 +91,7 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 Le code est à recopier est le code qui se trouve entre les commentaires de début et fin.
 <!-- Début code à copier -->
 
+**Code à recopier**
 ```html
 <!DOCTYPE html>
 <html>
@@ -114,6 +117,7 @@ Le code est à recopier est le code qui se trouve entre les commentaires de déb
 ### A toi:
 Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que ça donne.
 
+**Zone de saisie**
 ```html runnable
 <!DOCTYPE html>
 <html>
