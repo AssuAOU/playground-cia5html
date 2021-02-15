@@ -48,7 +48,8 @@ Ce document contient les éléments suivants:
 * `<body></body>`: Le corps de la page html. C'est là ou on va écire nos paragraphes.
 
 
-# 2. Notre première page
+<h1>2. Notre première page</h1>
+<h2>Le titre</h2>
 <p>Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
 Nous allons commencer par le squelette et y rajouter des éléments au fur et à mesure.<br>
 Il est recommandé de saisir manuellement l'ensemble du code.
@@ -64,13 +65,12 @@ Le titre sera La SNT au lycée </p>
 </head>
 
 <body>
-    <h1> Je suis un titre</h1>
-    <p>Ceci est un paragraphe</p>
 </body>
 
 </html>
 ```
-*** A toi
+*** A toi maintenant
+
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -78,36 +78,21 @@ Le titre sera La SNT au lycée </p>
 
 </html>
 ```
+<h2>Le menu de navigation</h2>
 
+<h2>Le contenu principal</h2>
 
+<h2>Ajouter une image</h2>
 
+<h2>Ajoutons de la couleur</h2>
 
-```html runnable
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Ma première page avec du style</title>
-</head>
-
-<body>
-
-<!-- Contenu principal -->
-<h1>Ma première page avec du style</h1>
-
-<p>Bienvenue sur ma page avec du style! 
-
-<p>Je devrais étayer, mais je ne sais comment encore.
-
-</body>
-</html>
-```
+<h2>Changement de la couleur de fond</h2>
 
 ###### Exercice 1 :
 Ecrire
 ![Minion](http://octodex.github.com/images/minion.png)
 ---
-# Sources
+<h1>Sources</h1>
 
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_HTML>
 <https://www.w3.org/Style/Examples/011/firstcss.fr.html>
