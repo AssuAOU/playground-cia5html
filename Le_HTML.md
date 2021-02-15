@@ -21,9 +21,9 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 `<p>La SNT, c'est génial!</p>`
 </p>
 
-# 1.Anatomie d'un document HTML
+<!--# 1.Anatomie d'un document HTML
 
-<p>Voici a quoi un document html.<br></p>
+<p>Voici a quoi un document html.<br></p> -->
 
 <!DOCTYPE html>
 <html>
