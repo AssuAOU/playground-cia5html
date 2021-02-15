@@ -232,12 +232,46 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
     
     <!-- Début Contenu Principal à copier -->
     <img src="https://octodex.github.com/images/collabocats.jpg" alt="" />
-    ![Minion](https://octodex.github.com/images/collabocats.jpg)
     <!-- Fin Contenu principal à copier-->
 </body>
 
 </html>
 ```
+
+**Zone de saisie**
+```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>La SNT au collège</title>
+</head>
+
+<body>
+    
+    <ul class="navbar">
+       <li><a href="index.html">Page d'accueil</a>
+        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
+        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
+    </ul>
+    
+    <h1>La SNT au lycée</h1>
+    <h2>Qu'est-ce que la SNT au lycée?</h2>
+    <p>La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique et de programmation vus au collège.</p>
+    <h2>Thème 1: Internet</h2>
+    <p>Internet est un réseau informatique mondial.</p>
+    <h2>Thème Transverse: Python</h2>
+    <p>Python est un langage de programmation facile à prendre en main.</p>
+    
+    <!-- Début Contenu Principal à copier -->
+    
+
+    <!-- Fin Contenu principal à copier-->
+</body>
+
+</html>
+```
+
 ###### Exercice 1 :
 Ecrire
 ![Minion](https://octodex.github.com/images/collabocats.jpg)
