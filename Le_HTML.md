@@ -104,6 +104,7 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 </html>
 ```
 <!-- Fin code à copier -->
+color:red texte en rouge
 
 A toi:
 
