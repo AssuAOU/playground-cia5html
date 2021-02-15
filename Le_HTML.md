@@ -54,7 +54,7 @@ Ce document contient les éléments suivants:
 <h2>Le titre</h2>
 <p>Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
 Nous allons commencer par le squelette et y rajouter des éléments au fur et à mesure.<br>
-Il est recommandé de saisir manuellement l'ensemble du code. Mais tu peux aussi copier-coller le code html.
+Il est recommandé de saisir manuellement l'ensemble du code. Mais tu peux aussi copier-coller le code html.<br>
 Recopie donc le squelette html et y rajouter le titre de la page. Puis cliquer sur "Run" pour voir le résultat final.<br>
 Le titre sera La SNT au lycée </p>
 
@@ -64,7 +64,7 @@ Le titre sera La SNT au lycée </p>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>La SNT au collège</title>
+  <title>La SNT au lycée</title>
 </head>
 
 <body>
