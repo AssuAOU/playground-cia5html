@@ -12,13 +12,13 @@ C'est un langage de balises qui définit la structure de votre contenu.
 HTML se compose d'une série d'éléments, utilisés pour entourer, ou envelopper, les diverses parties du contenu pour les faire apparaître ou agir d'une certaine façon. Les balises entourantes peuvent être rendues par un mot ou une image lien hypertexte vers quelque chose d'autre, un texte en italique, une police plus grande ou plus petite, et ainsi de suite.</p>
 <p>Par exemple, si on veut écrire:
 
-```html runnable
+```html
 <p>La SNT, c'est génial</p>
 ```
 Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe
 `<p>La SNT, c'est génial</p>`
 </p>
-# 1.Anatomie d'un document HTML
+<h1>1.Anatomie d'un document HTML</h1>
 ```html
 <!DOCTYPE html>
 <html>
