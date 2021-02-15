@@ -106,6 +106,10 @@ Le code est à recopier est le code qui se trouve entre les commentaires de déb
         <li><a href="index.html">Page d'accueil</a>
         <li><a href="Pogramme officiel.html">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
+        <li><a href="Thème_2_WEB.html">Thème 2: Le WEB</a>
+        <li><a href="Thème_3_Réseau_sociaux.html">Thème 3: Les réseaux sociaux</a>
+        <li><a href="Thème_4_Les_donnees_structures.html">Thème 4: Les données structurés</a>
+        <li><a href="Thème_Transverse_Python.html">Thème Transverse: La programmation python</a>
     </ul>
     <!-- Fin Menu de navigation du site-->
 </body>
