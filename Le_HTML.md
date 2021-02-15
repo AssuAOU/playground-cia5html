@@ -5,7 +5,8 @@ Par exemple, le contenu de votre page pourra être structuré en un ensemble de 
 une liste à puces ou avec des images et des tableaux de données.
 Ce tutoriel va vous fournit les bases de compréhension du HTML et de ses fonctions à travers la création d'une page WEB simple
 
-<h1>1. Qu'est-ce que le HTML?
+<h1>1. Qu'est-ce que le HTML?</h1>
+
 # 1.Anatomie d'un document HTML
 ```html
 <!DOCTYPE html>
