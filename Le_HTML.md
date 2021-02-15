@@ -103,7 +103,7 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 <p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
 ```
 ==surligner çaaa==
-
+`<ul class="navbar">`
 
 A toi:
 
