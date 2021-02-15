@@ -15,16 +15,16 @@ une police plus grande ou plus petite, et ainsi de suite.
 Par exemple, si on veut écrire:<br>
 
 ```html
-La SNT, c'est génial
+La SNT, c'est génial!
 ```
 Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
-`<p>La SNT, c'est génial</p>`
+`<p>La SNT, c'est génial!</p>`
 </p>
 
 # 1.Anatomie d'un document HTML
 
 <p>Voici a quoi un document html.<br></p>
-```html runnable
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -34,7 +34,7 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
   <body>
   </body>
 </html>
-```
+
 Explication de l'anatomie du document.
 
 Ce document contient les éléments suivants:
