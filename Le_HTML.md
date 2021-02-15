@@ -144,8 +144,10 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <h2>Le contenu principal</h2>
 <p>Nous allons maintenant rajouter du contenu. Un contenu est généralement constitué d'un titre principal, d'un sous-titre et de paragraphes.</p>
 <p>Voici comment introduire ces différents éléments.<br></p>
+
 * `<h1>Mon titre principal</h1>`:
 * `<h2>Mon sous titre</h2>`:
+* `<p>Mon paragraphe</p>`:
 
 <h2>Ajouter une image</h2>
 
