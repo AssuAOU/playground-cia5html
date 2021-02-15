@@ -82,7 +82,7 @@ Pour l'instant, on a une page vide. On n'exécute pas le code à travers un navi
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
 
-`
+`````
 <!DOCTYPE html>
 <html>
 <head>
@@ -101,7 +101,10 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 
 </html>
 <p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
-`
+`````
+==<ul class="navbar">==
+
+
 A toi:
 
 ```html runnable
