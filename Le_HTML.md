@@ -1,4 +1,5 @@
 **texte en gras**
+*texte en italique*
 <h1>Introduction</h1>
 
 HyperText Markup Language (HTML) est le code utilisé pour structurer une page web et son contenu.
@@ -82,9 +83,10 @@ Pour l'instant, on a une page vide. On n'exécute pas le code à travers un navi
 
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
+Le code est à saisir dans "body"
 <!-- Début code à copier -->
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,18 +96,17 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 
 <body>
     <!-- Menu de navigation du site -->
-    color:red <ul class="navbar">
+    <ul class="navbar">
         <li><a href="index.html">Page d'accueil</a>
         <li><a href="Pogramme officiel.html">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
     </ul>
-
+    <!-- Fin menu de navigation-->
 </body>
 
 </html>
 ```
 <!-- Fin code à copier -->
-color:red texte en rouge
 
 A toi:
 
