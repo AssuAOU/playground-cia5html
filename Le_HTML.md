@@ -104,7 +104,7 @@ Le code est à recopier est le code qui se trouve entre les commentaires de déb
     <ul class="navbar">
         <li><a href="index.html">Page d'accueil</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse: La programmation python</a>
+        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
     </ul>
     <!-- Fin Menu de navigation du site à copier-->
 </body>
@@ -134,6 +134,7 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 
 </html>
 ```
+***Analyse:*** On a maintenant une page, avec des liens, mais qui ne mènent à rien pour le moment.
 
 <h2>Le contenu principal</h2>
 <p>Nous allons maintenant rajouter du contenu. Un contenu est généralement constitué d'un titre principal, d'un sous-titre et de paragraphes.</p>
@@ -157,7 +158,7 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
     <ul class="navbar">
        <li><a href="index.html">Page d'accueil</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse: La programmation python</a>
+        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
     </ul>
     <!-- Début Contenu Principal à copier -->
     <h1>La SNT au lycée</h1>
@@ -165,6 +166,8 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
     <p>La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique et de programmation vus au collège.</p>
     <h2>Thème 1: Internet</h2>
     <p>Internet est un réseau informatique mondial.</p>
+    <h2>Thème Transverse: Python</h2>
+    <p>Python est un langage de programmation facile à prendre en main.</p>
     <!-- Fin Contenu principal à copier-->
 </body>
 
@@ -185,7 +188,7 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
     <ul class="navbar">
         <li><a href="index.html">Page d'accueil</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse: La programmation python</a>
+        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
     </ul>
     <!-- Début Contenu Principal à copier -->
     
@@ -196,12 +199,14 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 
 </html>
 ```
-
-<h2>Ajouter une image</h2>
+***Analyse:*** On a maintenant une page, avec des liens, et un contenu minimaliste.
 
 <h2>Ajoutons de la couleur</h2>
+Nous allons maintenant ajouter de la couleur à notre page.
 
 <h2>Changement de la couleur de fond</h2>
+
+<h2>Ajouter une image</h2>
 
 ###### Exercice 1 :
 Ecrire
