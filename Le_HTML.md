@@ -230,9 +230,9 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
     <h2>Thème Transverse: Python</h2>
     <p>Python est un langage de programmation facile à prendre en main.</p>
     
-    <!-- Début Contenu Principal à copier -->
+    <!-- Début lien image à copier -->
     <img src="https://octodex.github.com/images/collabocats.jpg" alt="" />
-    <!-- Fin Contenu principal à copier-->
+    <!-- Début lien image à copier-->
 </body>
 
 </html>
@@ -263,20 +263,16 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
     <h2>Thème Transverse: Python</h2>
     <p>Python est un langage de programmation facile à prendre en main.</p>
     
-    <!-- Début Contenu Principal à copier -->
+    <!-- Début lien image à copier -->
     
 
-    <!-- Fin Contenu principal à copier-->
+    <!-- Début lien image à copier-->
 </body>
 
 </html>
 ```
 
-###### Exercice 1 :
-Ecrire
-![Minion](https://octodex.github.com/images/collabocats.jpg)
----
-<h1>Sources</h1>
+###### Sources :
 
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_HTML>
 <https://www.w3.org/Style/Examples/011/firstcss.fr.html>
