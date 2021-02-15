@@ -25,7 +25,7 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 
 <p>Voici a quoi un document html.<br></p>
 
-```html runnable
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,15 +34,11 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 </head>
 
 <body>
-
-<!-- Contenu principal -->
-<h1>Ma première page avec du style</h1>
-
-<p>Bienvenue sur ma page avec du style! 
-
-<p>Je devrais étayer, mais je ne sais comment encore.
-
+    <h1> Je suis un titre</h1>
+    <h2> Je suis un sous titre</h2>
+    <p>Ceci est un paragraphe, du début à la fin</p>
 </body>
+
 </html>
 ```
 
