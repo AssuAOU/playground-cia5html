@@ -13,7 +13,7 @@ HTML se compose d'une série d'éléments, utilisés pour entourer, ou enveloppe
 <p>Par exemple, si on veut écrire:
 
 ```html
-<p>La SNT, c'est génial</p>
+La SNT, c'est génial
 ```
 Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe
 `<p>La SNT, c'est génial</p>`
