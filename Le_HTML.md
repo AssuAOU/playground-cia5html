@@ -92,7 +92,7 @@ Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne mener
 
 <body>
     <!-- Menu de navigation du site -->
-    <ul class="navbar">
+   == <ul class="navbar">==
         <li><a href="index.html">Page d'accueil</a>
         <li><a href="Pogramme officiel.html">Programme officiel</a>
         <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
