@@ -70,9 +70,10 @@ Pour transformer une section de contenu dans votre fichier HTML en commentaire, 
 
 <!-- <p>Je suis dans un commmentaire!</p> -->
 ```
-**A toi**
-Ajoute un commentaire dans la balise <body></body> explique a quoi sert cette balise.
+**A toi**<br>
+Ajoute un commentaire dans la balise `<body></body>` et explique a quoi sert cette balise.
 
+Pense à cliquer sur `RUN` pour voir le résultat.
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -89,7 +90,7 @@ Ajoute un commentaire dans la balise <body></body> explique a quoi sert cette ba
 </html>
 
 ```
-*** Analyse:*** En cliquant sur RUN, tu as remarqué que seul ce qui est dans body est affiché.
+`Analyse:` En cliquant sur RUN, tu as remarqué que seul ce qui est dans body est affiché.
 Les commentaires et ce qui est dans head ne sont pas visibles par l'utilisateur.
 
 ## Les balises essentiels pour débuter
@@ -106,7 +107,7 @@ Pour bien débuter en HTML, il est important de connaitres ces quelques balises:
 
 **A toi**<br>
 Complète la squelette ci-desssous en y ajoutant:
-* Un titre: Je suis le titre d'une page WEB le plus cool de l'histoire du WEB.
+* Un titre: Je suis le titre d'une page WEB le plus cool de l'histoire du WEB.<br>
 
 Dans body, ajouter le texte suivant:
 **Le WEB** (titre h1)<br>
@@ -115,8 +116,9 @@ Le chercheur britannique Tim Berners-Lee a inventé le World Wide Web en 1989, l
 À l’origine, le projet a été conçu et développé pour que des scientifiques travaillant dans des universités du monde entier puissent s'échanger des informations instantanément.
 ***Le navigateur qui a rendu le WEB populaire***(Titre h2)<br>
 Le navigateur qui a rendu le WEB populaire est Mosaic. Il est née en 1993.
-Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement.
+Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement. <br>
 
+Pense à cliquer sur `RUN` pour voir le résultat.
 ```html runnable
 <!DOCTYPE html>
 <html>
