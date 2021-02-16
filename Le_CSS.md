@@ -7,8 +7,79 @@ Alors que HTML s'utilise pour définir la structure du contenu, les CSS sont emp
 Ainsi par exemple, vous utiliserez les CSS pour modifier les POLICE, la `couleur`, la taille et l'e s p a c e m e n t de votre contenu,
 pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et autres fonctionnalités décoratives.
 
-# 1. Rappel sur le HTML
+# 1. Comment utiliser la feuille de style?
 Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des CSS, tout en apprenant des choses pratiques sur le langage.
+Il y'a plusieurs façon pour appliquer CSS à un document:
+* On peut écrire les règles directement `dans le document HTML`.
+* On peut écrire les règles `dans un fichier à part` et créer un lien vers la feuille de style CSS depuis l'en-tête (dans head) du document HTML.
+
+Dans ce tutoriel, nous allons faire la première méthode pour des questions pratique **MAIS** la deuxième méthode est la plus utilisée et la plus "propre".
+
+#### Méthode 1
+Voici comment appliquer la première méthode:
+Dans le document html, ajouter les lignes suivantes dans l'en-tête (dans "body").
+```html
+<style type="text/css">
+ 
+ </style>
+```html
+
+Et écrire les règles dans la balise `<style></style>`.
+Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
+
+```html
+ <style type="text/css">
+  
+  p {
+  color: red;
+  }
+```
+#### Méthode 2
+Voici comment applique la deuxième méthode:
+
+* Avec votre éditeur de code, dans le dossier où se trouve le document HTML, créez un fichier et sauvegardez le sous le nom styles.css.
+L'extension .css indique que c'est un fichier CSS.
+
+* Pour lier styles.css à index.html ajoutez la ligne suivante dans la section <head> du document HTML :
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+Cet élément <link> indique au navigateur la présence d'une feuille de style, grâce à l'attribut rel ; la valeur de l'attribut href donne la localisation du fichier CSS.
+Pour tester que le lien fonctionne, nous allons définir une règle dans styles.css.
+Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.
+
+# Mise en forme des éléments HTML
+
+On commencer par modifier la couleur de fond de la page WEB.On va la mettre...en violet
+```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ceci est le titre de cette page</title>
+ 
+  <style type="text/css">
+  body{
+    color: purple;
+    background-color: #d8da3d
+  }
+ </style>
+</head>
+
+<body>
+    <h1>Titre principal</h1> 
+    <h2>Titre de section</h2>
+    <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p>
+    <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p>
+    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
+
+</body>
+
+</html>
+```
+
+On va ensuite changer la couleur des titres et paragraphes.
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -44,7 +115,6 @@ Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des
 </html>
 ```
 
-# 2. Ajouter du CSS au HTML
 
 # Bilan
 Dans ce tutoriel nous avons vu plusieurs façons de mettre en forme un document grâce aux règles CSS.
