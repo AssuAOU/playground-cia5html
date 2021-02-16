@@ -36,7 +36,7 @@ Ce titre est visible quand on lance le code HTML avec un navigateur WEB.
 Donc on ne voit pas le titre de la page dans notre exemple.
 
 <h2>Le menu de navigation</h2>
-Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
+Ici, nous allons ajouter un menu de navigation.
 Voici a quoi ressemblera le menu:
 * `Page d'accueil`
 * `Thème 1: Internet`
