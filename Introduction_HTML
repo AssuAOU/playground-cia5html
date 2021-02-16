@@ -129,7 +129,7 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
 </html>
 ```
 
-## 3.3 Excercice d'application.
+# 4 Excercice d'application.
 **A toi**<br>
 Complète la squelette ci-desssous en y ajoutant:
 * Un titre pour la page WEB: **Je suis le titre le plus cool de l'histoire du WEB.**<br>
@@ -141,7 +141,7 @@ Le chercheur britannique Tim Berners-Lee a inventé le World Wide Web en 1989, l
 À l’origine, le projet a été conçu et développé pour que des scientifiques travaillant dans des universités du monde entier puissent s'échanger des informations instantanément.
 ***Le navigateur qui a rendu le WEB populaire***(Titre h2)<br>
 Le navigateur qui a rendu le WEB populaire est Mosaic. Il est née en 1993.
-Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement. <br>
+Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement.<br>
 
 ***Ajouter un lien qui mène vers l'ENT NEO*** (https://mayotte.opendigitaleducation.com) <br>
 Pense à cliquer sur `RUN` pour voir le résultat. Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la page.
