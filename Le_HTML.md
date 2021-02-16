@@ -58,11 +58,11 @@ Le code est à recopier est le code qui se trouve entre les commentaires de déb
 <body>
     <!-- Début Menu de navigation du site à copier -->
     <ul class="navbar">
-        <li>Page d'accueil
-        <li>Thème 1: Internet
-        <li>Thème 2: Le WEB
-        <li>Thème 3: Les réseaux sociaux
-        <li>Thème Transverse: Python       
+      <li>Page d'accueil</li>
+      <li>Thème 1: Internet</li>
+      <li>Thème 2: Le WEB</li>
+      <li>Thème 3: Les réseaux sociaux</li>
+      <li>Thème Transverse: Python</li>       
     </ul>
     <!-- Fin Menu de navigation du site à copier-->
 </body>
