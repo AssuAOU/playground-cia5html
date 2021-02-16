@@ -1,72 +1,11 @@
-**texte en gras**
-*texte en italique*
-<h1>Introduction</h1>
+# Notre première page
+Nous allons ici créer notre premier page WEB. Cette page sera dédiée au SNT au lycée.
 
-HyperText Markup Language (HTML) est le code utilisé pour structurer une page web et son contenu.
-Par exemple, le contenu de votre page pourra être structuré en un ensemble de paragraphes,
-une liste à puces ou avec des images et des tableaux de données.
-Ce tutoriel va vous fournit les bases de compréhension du HTML et de ses fonctions à travers la création d'une page WEB simple
-
-<h1>1. Qu'est-ce que le HTML?</h1>
-<p>HTML n'est pas un langage de programmation. On ne cherche pas à programmer le comportement d'un objet.
-On cherche plutôt à présenter un contenu (texte, image, son, vidéo).
-C'est un langage de ```balises``` qui définit la structure de votre contenu.
-HTML se compose d'une série d'éléments, utilisés pour entourer, ou envelopper, les diverses parties du contenu pour les faire apparaître ou agir d'une certaine façon.
-Les balises entourantes peuvent être rendues par un mot ou une image lien hypertexte vers quelque chose d'autre, un texte en italique,
-une police plus grande ou plus petite, et ainsi de suite.
-Par exemple, si on veut écrire:<br>
-
-```html
-La SNT, c'est génial!
-```
-Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
-`<p>La SNT, c'est génial!</p>`
-</p>
-
-<p>Grâce au HTML tu vas pouvoir, dans ton navigateur (Firefox, Chrome, Opera,....), afficher du texte, afficher des images, proposer des hyperliens (liens vers d'autres pages web), afficher des formulaires et même maintenant afficher des vidéos (grâce à la dernière version du HTML, l'HTML5).
-HTML n'est pas un langage de programmation (comme le Python par exemple), ici, pas question de conditions, de boucles....c'est un langage de description.</p>
-
-# HTML, une histoire de balise
-
-
-# 1.Squelette d'un document HTML
-
-<p>Voici a quoi ressemble un document html.<br></p>
-
-**Squelette d'un document HTML** 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-</head>
-
-<body>
-</body>
-
-</html>
-```
-
-***Explication de l'anatomie du document.***
-
-Ce document contient les éléments suivants:
-* `<!DOCTYPE html>`: Il s'agit du doctype
-* `<html></html>` : C'est dans ces balises que se trouverons l'ensemble de du code html
-* `<head></head>`: C'est la tête. C'est pour spécifier des choses qui n'appraittrons pas dans le corps de la page.
-* `<meta charset="utf-8">` : C'est pour dire qu'on peut afficher l'ensemble des caractères possibles
-* `<body></body>`: Le corps de la page html. C'est là ou on va écire nos paragraphes.
-
-Comme déjà évoqué ci-dessus, en HTML tout est une histoire de balise que l'on ouvre et que l'on ferme.
-Une balise ouvrante est de la forme <nom_de_la_balise>, les balises fermantes sont de la forme </nom_de_la_balise>.
-
-<h1>2. Notre première page</h1>
-<h2>Le titre</h2>
-<p>Nous allons ici créer notre premier page WEB. Cette page sera dédiée au SNT au lycée.<br>
+## Le titre
 Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
-Nous allons commencer par le squelette et y rajouter des éléments au fur et à mesure.<br>
-Il est recommandé de saisir manuellement l'ensemble du code. Mais tu peux aussi copier-coller le code html.<br>
-Pour commencer, recopie donc le code de la partie Code à recopie dans la partie Zone de saisie.<br>
-Puis clique sur "Run" pour voir le résultat final.<br>
+Il est recommandé de saisir manuellement l'ensemble du code. Mais tu peux aussi copier-coller le code html.
+Pour commencer, recopie donc le code de la partie `Code à recopie` dans la partie `Zone de saisie`.<br>
+Puis clique sur `Run` pour voir le résultat final.<br>
 
 **Code à recopier:**
 ```html
@@ -83,7 +22,7 @@ Puis clique sur "Run" pour voir le résultat final.<br>
 </html>
 ```
 ### A toi:
-Recopie l'ensemble du code ci-dessus  dans la zone de saisie puis clique sur ***RUN** pour voir ce que ça donne.
+Recopie l'ensemble du code ci-dessus  dans la zone de saisie puis clique sur ***RUN*** pour voir le résultat.
 
 **Zone de saisie:**
 ```html runnable
@@ -96,9 +35,15 @@ Recopie l'ensemble du code ci-dessus  dans la zone de saisie puis clique sur ***
 Ce titre est visible quand on lance le code HTML avec un navigateur WEB.
 Donc on ne voit pas le titre de la page dans notre exemple.
 
-
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
+Voici a quoi ressemblera le menu:
+* Page d'accueil
+* Thème 1: Internet
+* Thème 2: Le WEB
+* Thème 3: Les réseaux sociaux
+* Thème Transverse: La programmation
+
 Le code est à recopier est le code qui se trouve entre les commentaires de début et fin.
 
 **Code à recopier**
@@ -113,9 +58,11 @@ Le code est à recopier est le code qui se trouve entre les commentaires de déb
 <body>
     <!-- Début Menu de navigation du site à copier -->
     <ul class="navbar">
-        <li><a href="index.html">Page d'accueil</a>
-        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
+        <li>Page d'accueil
+        <li>Thème 1: Internet
+        <li>Thème 2: Le WEB
+        <li>Thème 3: Les réseaux sociaux
+        <li>Thème Transverse: Python       
     </ul>
     <!-- Fin Menu de navigation du site à copier-->
 </body>
@@ -167,9 +114,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-       <li><a href="index.html">Page d'accueil</a>
-        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
+       <li>Page d'accueil
+        <li>Thème 1: Internet
+        <li>Thème 2: Le WEB
+        <li>Thème 3: Les réseaux sociaux
+        <li>Thème Transverse: Python
     </ul>
     <!-- Début Contenu Principal à copier -->
     <h1>La SNT au lycée</h1>
@@ -197,9 +146,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-        <li><a href="index.html">Page d'accueil</a>
-        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
+        <li>Page d'accueil
+        <li>Thème 1: Internet
+        <li>Thème 2: Le WEB
+        <li>Thème 3: Les réseaux sociaux
+        <li>Thème Transverse: Python
     </ul>
     <!-- Début Contenu Principal à copier -->
     
@@ -228,9 +179,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-       <li><a href="index.html">Page d'accueil</a>
-        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
+      <li>Page d'accueil
+        <li>Thème 1: Internet
+        <li>Thème 2: Le WEB
+        <li>Thème 3: Les réseaux sociaux
+        <li>Thème Transverse: Python
     </ul>
     
     <h1>La SNT au lycée</h1>
