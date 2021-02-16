@@ -110,7 +110,7 @@ Clique sur `RUN` pour voir le résultat. Et lit les commentaires pour savoir à 
     <h2>Titre de section</h2>
     <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p> <!-- C'est ici que l'on écrira nos paragraphes.-->
     <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p><!-- On peut mettre en gras avec la balise strong-->
-    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur Qwant</a> <!--O peut créer des lien cliquables avec la balise a. La première partie est le lien, la deuxième est la description du lien. -->
+    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a> <!--O peut créer des lien cliquables avec la balise a. La première partie est le lien, la deuxième est la description du lien. -->
     <img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat." /> <!-- On peut aussi insérer une image: src est la source; alt est la description de l'image. -->
 </body>
 
