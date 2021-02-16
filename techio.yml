@@ -3,6 +3,9 @@ plan:
 - title: Bienvenue
   statement: statement.md
   
+- title: HTML: Une histoire de balise
+  statement: Introduction_HTML
+  
 - title: Le HTML
   statement: Le_HTML.md
   
