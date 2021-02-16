@@ -2,33 +2,42 @@
 
 Qu'est-ce que le CSS?
 
-CSS (Cascading Style Sheets) permet de créer de superbes pages web, mais comment fonctionne-t-il sous le capot ?
-Ce tutoriel explique ce qu'est le CSS à l'aide d'un exemple de syntaxe simple et couvre également quelques-uns des termes clés du langage.
+Les Cascading StyleSheets — ou CSS — (Feuilles de style en cascade) sont la première technique à apprendre après le HTML.
+Alors que HTML s'utilise pour définir la structure du contenu, les CSS sont employées pour composer et déterminer l'apparence de ce contenu.
+Ainsi par exemple, vous utiliserez les CSS pour modifier les POLICE, la `couleur`, la taille et l'e s p a c e m e n t de votre contenu,
+pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et autres fonctionnalités décoratives.
 
 # 1. Rappel sur le HTML
-
+Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des CSS, tout en apprenant des choses pratiques sur le langage.
 ```html
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Démarrer avec CSS</title>
+  <meta charset="utf-8">
+  <title>Ceci est le titre de cette page</title>
+ 
+  <style type="text/css">
+  body{
+    color: purple;
+    background-color: #d8da3d
+  }
+
+  h1 {
+  color: red;
+  }
+
+  p {
+  color: red;
+  }
+ </style>
 </head>
 
 <body>
-
-    <h1>Je suis un titre de niveau un</h1>
-
-    <p>Ceci est un paragraphe. Dans ce texte il y a un <span>élément span</span>
- et aussi un <a href="http://example.com">lien</a>.</p>
-
-    <p>Ceci est un second paragraphe. On y trouve un élément <em>mis en valeur</em>.</p>
-
-    <ul>
-        <li>Item un</li>
-        <li>Item deux</li>
-        <li>Item <em>trois</em></li>
-    </ul>
+    <h1>Titre principal</h1> 
+    <h2>Titre de section</h2>
+    <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p>
+    <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p>
+    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 
 </body>
 
