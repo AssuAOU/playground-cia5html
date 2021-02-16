@@ -10,7 +10,7 @@ Ce tutoriel va vous fournit les bases de compréhension du HTML et de ses foncti
 <h1>1. Qu'est-ce que le HTML?</h1>
 <p>HTML n'est pas un langage de programmation. On ne cherche pas à programmer le comportement d'un objet.
 On cherche plutôt à présenter un contenu (texte, image, son, vidéo).
-C'est un langage de balises qui définit la structure de votre contenu.
+C'est un langage de ```balises``` qui définit la structure de votre contenu.
 HTML se compose d'une série d'éléments, utilisés pour entourer, ou envelopper, les diverses parties du contenu pour les faire apparaître ou agir d'une certaine façon.
 Les balises entourantes peuvent être rendues par un mot ou une image lien hypertexte vers quelque chose d'autre, un texte en italique,
 une police plus grande ou plus petite, et ainsi de suite.
@@ -23,10 +23,17 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 `<p>La SNT, c'est génial!</p>`
 </p>
 
+<p>Grâce au HTML tu vas pouvoir, dans ton navigateur (Firefox, Chrome, Opera,....), afficher du texte, afficher des images, proposer des hyperliens (liens vers d'autres pages web), afficher des formulaires et même maintenant afficher des vidéos (grâce à la dernière version du HTML, l'HTML5).
+HTML n'est pas un langage de programmation (comme le Python par exemple), ici, pas question de conditions, de boucles....c'est un langage de description.</p>
+
+# HTML, une histoire de balise
+
+
 # 1.Squelette d'un document HTML
 
 <p>Voici a quoi ressemble un document html.<br></p>
 
+**Squelette d'un document HTML** 
 ```html
 <!DOCTYPE html>
 <html>
@@ -40,7 +47,7 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 </html>
 ```
 
-*** Explication de l'anatomie du document.
+***Explication de l'anatomie du document.***
 
 Ce document contient les éléments suivants:
 * `<!DOCTYPE html>`: Il s'agit du doctype
@@ -49,14 +56,17 @@ Ce document contient les éléments suivants:
 * `<meta charset="utf-8">` : C'est pour dire qu'on peut afficher l'ensemble des caractères possibles
 * `<body></body>`: Le corps de la page html. C'est là ou on va écire nos paragraphes.
 
+Comme déjà évoqué ci-dessus, en HTML tout est une histoire de balise que l'on ouvre et que l'on ferme.
+Une balise ouvrante est de la forme <nom_de_la_balise>, les balises fermantes sont de la forme </nom_de_la_balise>.
 
 <h1>2. Notre première page</h1>
 <h2>Le titre</h2>
-<p>Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
+<p>Nous allons ici créer notre premier page WEB. Cette page sera dédiée au SNT au lycée.<br>
+Nous allons commencer par donner un titre à notre page. C'est le titre qui sera affiché sur l'onglet.
 Nous allons commencer par le squelette et y rajouter des éléments au fur et à mesure.<br>
 Il est recommandé de saisir manuellement l'ensemble du code. Mais tu peux aussi copier-coller le code html.<br>
-Recopie donc le squelette html et y rajouter le titre de la page. Puis cliquer sur "Run" pour voir le résultat final.<br>
-Le titre sera La SNT au lycée </p>
+Pour commencer, recopie donc le code de la partie Code à recopie dans la partie Zone de saisie.<br>
+Puis clique sur "Run" pour voir le résultat final.<br>
 
 **Code à recopier:**
 ```html
@@ -82,9 +92,10 @@ Recopie l'ensemble du code ci-dessus  dans la zone de saisie puis clique sur ***
 
 </html>
 ```
-***Remarque:*** Pour l'instant, on a une page vide.
-C'est normal car on n'exécute pas le code à travers un navigateur.
-Donc on ne voit pas le titre de la page.
+***Analyse:*** Pour l'instant, on a une page vide. On a juste ajouté le titre de la page WEB.
+Ce titre est visible quand on lance le code HTML avec un navigateur WEB.
+Donc on ne voit pas le titre de la page dans notre exemple.
+
 
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
