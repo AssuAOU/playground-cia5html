@@ -51,7 +51,8 @@ Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.
 
 # Mise en forme des éléments HTML
 
-On commencer par modifier la couleur de fond de la page WEB.On va la mettre...en violet
+On commencer par modifier la couleur de fond de la page WEB. Et la couleur de police.
+On va mettre le fond en noir et le texte en blanc 
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -61,8 +62,8 @@ On commencer par modifier la couleur de fond de la page WEB.On va la mettre...en
  
   <style type="text/css">
   body{
-    color: purple;
-    background-color: #d8da3d
+    color: white;
+    background-color: black
   }
  </style>
 </head>
