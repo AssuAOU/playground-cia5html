@@ -9,12 +9,12 @@ Ici, nous allons voir ce qu'est le HTML et certaines balises importantes.
 HTML n'est pas un langage de programmation (comme le Python par exemple), ici, pas question de conditions, de boucles....c'est un langage de description.
 On cherche plutôt à présenter un contenu (texte, image, son, vidéo). La desciption se faitavec des ```balises```.
 
-Par exemple, si on veut écrire:<br>
+Par exemple, si on veut écrire:<br/>
 
 ```html
 La SNT, c'est génial!
 ```
-Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
+Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br/>
 `<p>La SNT, c'est génial!</p>`
 
 <p>Grâce au HTML tu vas pouvoir, dans ton navigateur (Firefox, Chrome, Opera,....), afficher du texte, afficher des images, proposer des hyperliens (liens vers d'autres pages web), afficher des formulaires et même maintenant afficher des vidéos (grâce à la dernière version du HTML, l'HTML5).
@@ -178,21 +178,21 @@ print((b / 2)**2)
 ---
 
 # 4 Excercice d'application.
-**A toi**<br>
+**A toi**<br/>
 Complète la squelette ci-desssous en y ajoutant:
-* Un titre pour la page WEB: **Je suis le titre le plus cool de l'histoire du WEB.**<br>
+* Un titre pour la page WEB: **Je suis le titre le plus cool de l'histoire du WEB.**<br/>
 
 Dans body, ajouter le texte suivant:
-**Le WEB** (titre h1)<br>
-***Le berceau du WEB***(titre h2)<br>
+**Le WEB** (titre h1)<br/>
+***Le berceau du WEB***(titre h2)<br/>
 Le chercheur britannique Tim Berners-Lee a inventé le World Wide Web en 1989, lorsqu’il travaillait au CERN.
 À l’origine, le projet a été conçu et développé pour que des scientifiques travaillant dans des universités du monde entier puissent s'échanger des informations instantanément.
-***Le navigateur qui a rendu le WEB populaire***(Titre h2)<br>
+***Le navigateur qui a rendu le WEB populaire***(Titre h2)<br/>
 Le navigateur qui a rendu le WEB populaire est Mosaic. Il est née en 1993.
-Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement.<br>
+Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement.<br/>
 
-***Ajouter un lien qui mène vers l'ENT NEO*** (https://mayotte.opendigitaleducation.com) <br>
-Pense à cliquer sur `RUN` pour voir le résultat.<br>
+***Ajouter un lien qui mène vers l'ENT NEO*** (https://mayotte.opendigitaleducation.com) <br/>
+Pense à cliquer sur `RUN` pour voir le résultat.<br/>
 Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la page.
 
 ```html runnable
