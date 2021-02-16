@@ -123,11 +123,59 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
     <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p>
     <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p>
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
-    <img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat." />
+    <img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat qui prend une photo." />
 </body>
 
 </html>
 ```
+
+## Questionnaire QCM
+
+Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce qui précède si tu as un doute.
+
+###### QCM 1
+```html
+a = 5
+b = a - 2
+print(a * b)
+```  
+?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+-[ ] -10
+-[x] 15
+-[ ] 23
+-[ ] 3
+-[ ] 8
+
+---
+
+###### QCM 2
+```html
+a = 5
+a = a - 2
+a = a * a + 1
+print(a)
+```  
+?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+-[ ] 16
+-[ ] 26
+-[ ] 12
+-[x] 10
+
+---
+
+###### QCM 3
+```html
+a = 7
+b = a - 1
+print((b / 2)**2)
+```
+?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
+-[ ] 6.0
+-[ ] 1.5
+-[x] 9.0
+-[ ] -0.25  
+
+---
 
 # 4 Excercice d'application.
 **A toi**<br>
@@ -144,7 +192,8 @@ Le navigateur qui a rendu le WEB populaire est Mosaic. Il est née en 1993.
 Ce navigateur a été publié en 1993 alors que le World Wide Web développé par le CERN ne comptait que 200 sites, 3 ans après son lancement.<br>
 
 ***Ajouter un lien qui mène vers l'ENT NEO*** (https://mayotte.opendigitaleducation.com) <br>
-Pense à cliquer sur `RUN` pour voir le résultat. Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la page.
+Pense à cliquer sur `RUN` pour voir le résultat.<br>
+Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la page.
 
 ```html runnable
 <!DOCTYPE html>
