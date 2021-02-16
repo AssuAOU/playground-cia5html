@@ -80,6 +80,7 @@ Pense à cliquer sur `RUN` pour voir le résultat.
 <head>
   <!-- Balise head: On y trouve ce qu'on veut inclure dans la page mais qui ne sera pas vu par l'internaute-->
   <meta charset="utf-8">
+  <title>Ceci est mon titre</title>
 </head>
 
 <body>
@@ -114,7 +115,7 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
 <html>
 <head>
   <meta charset="utf-8">
-  
+  <title>Ceci est mon titre</title>
 </head>
 
 <body>
@@ -238,7 +239,7 @@ Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la 
 <html>
 <head>
   <meta charset="utf-8">
-  
+  <title>Ceci est mon titre</title>
 </head>
 
 <body>
