@@ -182,7 +182,7 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 ```html
 <h1>Le tour du monde en 80 jours.</h1>
 ```
-?[Cette balise correspond à]
+?[Ce code html décrit]
 -[ ] Un lien.
 -[x] Un titre.
 -[ ] Un paragraphe.
@@ -194,7 +194,7 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 ```html
 <head></head>
 ```
-?[Dans cette balise, on écrit]
+?[Ce code html décrit]
 -[x] Des choses qui ne sont pas visible par l'internaute
 -[ ] Des choses visibles par l'internaute
 -[ ] Des paragraphes et des titres de section
@@ -207,7 +207,7 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 <body>
 </body>
 ```
-?[Cette balise correspond à]
+?[Ce code html décrit]
 -[ ] Du texte en gras.
 -[ ] Un un lien hypertexte.
 -[x] Au contenu visible par l'internaute.
