@@ -9,7 +9,7 @@ pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et 
 
 # 1. Rappel sur le HTML
 Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des CSS, tout en apprenant des choses pratiques sur le langage.
-```html
+```html runnable
 <!DOCTYPE html>
 <html>
 <head>
