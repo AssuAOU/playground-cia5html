@@ -1,13 +1,13 @@
 title: Apprendre le HTML et le CSS
 plan:
 - title: Bienvenue
-    statement: statement.md
+statement: statement.md
   
 - title: HTML, Une histoire de balise
-    statement: Introduction_HTML.md
+statement: Introduction_HTML.md
   
  - title: Le CSS, une histoire de style
-     statement: Le_CSS.md
+ statement: Le_CSS.md
   
  - title: Projet guidé : Créer sa page WEB
-    statement: Le_HTML.md
+ statement: Le_HTML.md
