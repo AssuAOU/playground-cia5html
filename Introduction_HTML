@@ -1,4 +1,4 @@
-<h1>Introduction</h1>
+# Introduction
 
 HyperText Markup Language (HTML) est le code utilisé pour structurer une page web et son contenu.
 Par exemple, le contenu de votre page pourra être structuré en un ensemble de paragraphes,
@@ -7,7 +7,7 @@ Ici, nous allons voir ce qu'est le HTML et certaines balises importantes.
 
 # 1. Qu'est-ce que le HTML?
 HTML n'est pas un langage de programmation (comme le Python par exemple), ici, pas question de conditions, de boucles....c'est un langage de description.
-On cherche plutôt à présenter un contenu (texte, image, son, vidéo). La desciption se faitavec des ```balises```.
+On cherche plutôt à présenter un contenu (texte, image, son, vidéo). La desciption se fait avec des ```balises```.
 
 Par exemple, si on veut écrire:<br/>
 
@@ -133,56 +133,94 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
 
 Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce qui précède si tu as un doute.
 
+---
+
 ###### QCM 1
-```html
-a = 5
-b = a - 2
-print(a * b)
-```  
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] -10
--[x] 15
--[ ] 23
--[ ] 3
--[ ] 8
+
+?[Que veut dire HTML? ? ]
+-[ ] ^-^
+-[x] HyperText Markup Language
+-[ ] HyperText Market Language
+-[ ] Hi Teacher MaouLida
+
 
 ---
 
 ###### QCM 2
-```html
-a = 5
-a = a - 2
-a = a * a + 1
-print(a)
-```  
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 16
--[ ] 26
--[ ] 12
--[x] 10
+ 
+?[On utilise le HTML pour ? ]
+-[ ] Programmer le déplacement des images.
+-[x] Décrire un contenu.
+-[ ] Naviguer sur le WEB.
+-[ ] Télécharger des vidéos,images.
 
 ---
 
 ###### QCM 3
+
+?[Le code HTML utilise ]
+-[ ] Des crochets: []
+-[ ] Des parenthèses: ()
+-[x] Des balises: <>
+-[ ] (^_^)
+
+---
+
+###### QCM 4
 ```html
-a = 7
-b = a - 1
-print((b / 2)**2)
+<p>Nature, berce-leu chaudement: il a froid.</p>
 ```
-?[Quelle valeur sera affichée si on execute le programme ci-dessus ? ]
--[ ] 6.0
--[ ] 1.5
--[x] 9.0
--[ ] -0.25  
+?[Cette balise correspond à]
+-[ ] Le titre
+-[ ] Les lignes
+-[x] Un paragraphe
+-[ ] (~_~)  
+
+---
+
+###### QCM 5
+```html
+<h1>Le tour du monde en 80 jours.</h1>
+```
+?[Cette balise correspond à]
+-[ ] Un lien.
+-[x] Un titre.
+-[ ] Un paragraphe.
+-[ ] 80 jours.  
+
+---
+
+###### QCM 6
+```html
+<head></head>
+```
+?[Dans cette balise, on écrit]
+-[x] Des choses qui ne sont pas visible par l'internaute
+-[ ] Des choses visibles par l'internaute
+-[ ] Des paragraphes et des titres de section
+-[ ] -_-  
+
+---
+
+###### QCM 7
+```html
+<body>
+</body>
+```
+?[Cette balise correspond à]
+-[ ] Du texte en gras.
+-[ ] Un un lien hypertexte.
+-[x] Au contenu visible par l'internaute.
+-[ ] (^o^)   
 
 ---
 
 # 4 Excercice d'application.
 **A toi**<br/>
-Complète la squelette ci-desssous en y ajoutant:
-* Un titre pour la page WEB: **Je suis le titre le plus cool de l'histoire du WEB.**<br/>
+Complète la squelette ci-desssous en y ajoutant le titre de la page WEB:<br/>
+**Je suis le titre le plus cool de l'histoire du WEB.**<br/>
 
-Dans body, ajouter le texte suivant:
+Dans body, ajouter le texte suivant:<br/>
 **Le WEB** (titre h1)<br/>
 ***Le berceau du WEB***(titre h2)<br/>
 Le chercheur britannique Tim Berners-Lee a inventé le World Wide Web en 1989, lorsqu’il travaillait au CERN.
