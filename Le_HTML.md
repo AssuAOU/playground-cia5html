@@ -92,7 +92,7 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 
 </html>
 ```
-***Analyse:*** On a maintenant une page, avec des liens, mais qui ne mènent à rien pour le moment.
+***Analyse:*** On a maintenant une page, avec une liste de rubriques. On verra plus loin qu'on peut rendre ces listes cliquables. C'est à dire qu'en cliquant dessus, on va aller sur une autre page, ou un autre site.
 
 <h2>Le contenu principal</h2>
 <p>Nous allons maintenant rajouter du contenu. Un contenu est généralement constitué d'un titre principal, d'un sous-titre et de paragraphes.</p>
@@ -114,11 +114,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-       <li>Page d'accueil
-        <li>Thème 1: Internet
-        <li>Thème 2: Le WEB
-        <li>Thème 3: Les réseaux sociaux
-        <li>Thème Transverse: Python
+       <li>Page d'accueil</li>
+      <li>Thème 1: Internet</li>
+      <li>Thème 2: Le WEB</li>
+      <li>Thème 3: Les réseaux sociaux</li>
+      <li>Thème Transverse: Python</li>   
     </ul>
     <!-- Début Contenu Principal à copier -->
     <h1>La SNT au lycée</h1>
@@ -146,11 +146,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-        <li>Page d'accueil
-        <li>Thème 1: Internet
-        <li>Thème 2: Le WEB
-        <li>Thème 3: Les réseaux sociaux
-        <li>Thème Transverse: Python
+      <li>Page d'accueil</li>
+      <li>Thème 1: Internet</li>
+      <li>Thème 2: Le WEB</li>
+      <li>Thème 3: Les réseaux sociaux</li>
+      <li>Thème Transverse: Python</li>   
     </ul>
     <!-- Début Contenu Principal à copier -->
     
@@ -179,11 +179,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-      <li>Page d'accueil
-        <li>Thème 1: Internet
-        <li>Thème 2: Le WEB
-        <li>Thème 3: Les réseaux sociaux
-        <li>Thème Transverse: Python
+      <li>Page d'accueil</li>
+      <li>Thème 1: Internet</li>
+      <li>Thème 2: Le WEB</li>
+      <li>Thème 3: Les réseaux sociaux</li>
+      <li>Thème Transverse: Python</li>   
     </ul>
     
     <h1>La SNT au lycée</h1>
@@ -214,9 +214,11 @@ Recopie le code du menu de navigation puis clique sur ***RUN** pour voir ce que 
 <body>
     
     <ul class="navbar">
-       <li><a href="index.html">Page d'accueil</a>
-        <li><a href="Thème_1_Internet.html">Thème 1: Internet</a>
-        <li><a href="Thème_Transverse_Python.html">Thème Transverse</a>
+      <li>Page d'accueil</li>
+      <li>Thème 1: Internet</li>
+      <li>Thème 2: Le WEB</li>
+      <li>Thème 3: Les réseaux sociaux</li>
+      <li>Thème Transverse: Python</li>   
     </ul>
     
     <h1>La SNT au lycée</h1>
