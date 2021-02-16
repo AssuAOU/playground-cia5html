@@ -38,11 +38,11 @@ Donc on ne voit pas le titre de la page dans notre exemple.
 <h2>Le menu de navigation</h2>
 Ici, nous allons ajouter des liens cliquables. Pour le moment,ces liens ne menerons à...rien.
 Voici a quoi ressemblera le menu:
-* Page d'accueil
-* Thème 1: Internet
-* Thème 2: Le WEB
-* Thème 3: Les réseaux sociaux
-* Thème Transverse: La programmation
+* `Page d'accueil`
+* `Thème 1: Internet`
+* `Thème 2: Le WEB`
+* `Thème 3: Les réseaux sociaux`
+* `Thème Transverse: La programmation`
 
 Le code est à recopier est le code qui se trouve entre les commentaires de début et fin.
 
