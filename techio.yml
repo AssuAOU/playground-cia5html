@@ -4,12 +4,10 @@ plan:
   statement: statement.md
   
 - title: HTML, Une histoire de balise
-  statement: Introduction_HTML
+  statement: Introduction_HTML.md
   
  - title: Le CSS, une histoire de sapologie, de style
   statement: Le_CSS.md
   
 - title: Projet guidé : Créer sa page WEB
   statement: Le_HTML.md
-  
-
