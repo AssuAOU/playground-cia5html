@@ -95,14 +95,26 @@ Les commentaires et ce qui est dans head ne sont pas visibles par l'utilisateur.
 
 ## Les balises essentiels pour débuter
 
-Pour bien débuter en HTML, il est important de connaitres ces quelques balises:
-```html
-<h1>titre principal</h1> <!-- Il s'agit du titre principal: Le titre le plus important est h1. Et ça va jusqu'à h6 -->
-<h2>Titre de section</h2>
-<p> Ce ceci est une paragraphe</p> <!-- C'est ici que l'on écriras nos paragraphes.-->
-<p>J'ai mis en <strong>gras</strong> le mot gras gros!</p><!-- On peut mettre en gras avec la balise strong-->
-<a href="mon_autre_page.html">Cliquez ici pour vous rendre sur mon autre page</a><!--O peut créer des lien cliquables avec la balise a. La première partie est le lien, la deuxième est la description du lien. -->
-<img src="mon_image.jpg" alt="Cette image représente un avion"/><!-- On peut aussi insérer une image: src est la source; alt est la description de l'image. -->
+Pour bien débuter en HTML, il est important de connaitres ces quelques balises.
+Clique sur `RUN` pour voir le résultat. Et lit les commentaires pour savoir à quoi sert chaque balise.
+```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+</head>
+
+<body>
+    <h1>Titre principal</h1> <!-- Il s'agit du titre principal: Le titre le plus important est h1. Et ça va jusqu'à h6 -->
+    <h2>Titre de section</h2>
+    <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p> <!-- C'est ici que l'on écrira nos paragraphes.-->
+    <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p><!-- On peut mettre en gras avec la balise strong-->
+    <a href="www.qwant.com">Cliquz ici pour vous rendre sur Qwant</a> <!--O peut créer des lien cliquables avec la balise a. La première partie est le lien, la deuxième est la description du lien. -->
+    <img src="https://pixabay.com/images/id-1153439/" alt="Cette image représente un maki,un symbole de Mayotte" /> <!-- On peut aussi insérer une image: src est la source; alt est la description de l'image. -->
+</body>
+
+</html>
 ```
 
 **A toi**<br>
