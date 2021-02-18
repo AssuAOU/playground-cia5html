@@ -51,7 +51,19 @@ Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.
 # Mise en forme des éléments HTML
 
 On commencer par modifier la couleur de fond de la page WEB. Et la couleur de police.
-On va mettre le fond en noir et le texte en blanc 
+On va mettre le fond en noir et le texte en blanc.
+Cette action se fait avec le code suivant.
+```html
+body{
+    color: white;
+    background-color: black
+  }
+```
+
+**A toi**
+Clique sur `RUN` pour voir le résultat.
+Ensuite, modifie le code pour afficher le texte en ***Rouge*** et le fond en ***vert***.
+
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -71,21 +83,22 @@ On va mettre le fond en noir et le texte en blanc
     <!-- Menu de navigation du site-->
     <ul>
         <li>Accueil</li>
-        <li>Actualitéd</li>
+        <li>Actualité</li>
         <li>La cité scolaire</li>
         <li>Classes et options</li>
-        <li>Examen</li>
+        <li>Examens</li>
         <li>L'accès à Pronote et NEO</li>
     </ul>
     <h1>Accueil</h1> 
     <h1>Bienvenue à la cité scolaire</h1> 
-    <h3>Titre de section</h3>
+    <h3>Horaires</h3>
     <p> La cité sclaire est ouverte du lundi au samedi. Pour joindre l'accueil, il faut composer le 0269 70 71 72</p>
     <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
-    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
-
+   
    <!--Signature -->
    <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress>
+
+    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 </body>
 
 </html>
