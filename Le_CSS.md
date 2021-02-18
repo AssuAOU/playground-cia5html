@@ -42,8 +42,7 @@ Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le
 
 </html>
 ```
-**Tu remarqueras que la page n'est pas très beau. Nous faire la mise en page de notre page.(^-^)**
-
+**Tu remarqueras que la page n'est pas très belle. Nous allons faire la mise en page de notre page avec le CSS.(^-^)**
 
 # 1. Comment utiliser la feuille de style?
 Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des CSS, tout en apprenant des choses pratiques sur le langage.
