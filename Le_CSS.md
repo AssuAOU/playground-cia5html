@@ -137,6 +137,7 @@ Clique sur `SUCCESS` pour relancer la page et voir le résultat.
         <li>Examens</li>
         <li>L'accès à Pronote et NEO</li>
     </ul>
+    <img src="https://cdn.pixabay.com/photo/2017/07/04/10/07/board-2470557_960_720.jpg" alt="Never Give up" />
     <h1>Accueil</h1> 
     <h1>Bienvenue à la cité scolaire</h1> 
     <h3>Horaires</h3>
@@ -158,31 +159,37 @@ On va ensuite changer la couleur des titres et paragraphes.
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ceci est le titre de cette page</title>
+  <title>Bienvenue à la cité scolaire</title>
  
   <style type="text/css">
   body{
-    color: purple;
-    background-color: #d8da3d
-  }
-
-  h1 {
-  color: red;
-  }
-
-  p {
-  color: red;
+    color: white;
+    background-color: black
   }
  </style>
 </head>
 
 <body>
-    <h1>Titre principal</h1> 
-    <h2>Titre de section</h2>
-    <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p>
-    <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p>
-    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
+    <!-- Menu de navigation du site-->
+    <ul>
+        <li>Accueil</li>
+        <li>Actualité</li>
+        <li>La cité scolaire</li>
+        <li>Classes et options</li>
+        <li>Examens</li>
+        <li>L'accès à Pronote et NEO</li>
+    </ul>
+    <img src="https://cdn.pixabay.com/photo/2017/07/04/10/07/board-2470557_960_720.jpg" alt="Never Give up" />
+    <h1>Accueil</h1> 
+    <h1>Bienvenue à la cité scolaire</h1> 
+    <h3>Horaires</h3>
+    <p> La cité sclaire est ouverte du lundi au samedi. Pour joindre l'accueil, il faut composer le 0269 70 71 72</p>
+    <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
+   
+   <!--Signature -->
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress>
 
+    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 </body>
 
 </html>
