@@ -7,7 +7,7 @@ Alors que HTML s'utilise pour définir la structure du contenu, les CSS sont emp
 Ainsi par exemple, vous utiliserez les CSS pour modifier les POLICE, la `couleur`, la taille et l'e s p a c e m e n t de votre contenu,
 pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et autres fonctionnalités décoratives.
 
-Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le résultat. Tu remarqueras que la page n'est pas très beau. (^-^)
+Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le résultat.
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -35,14 +35,14 @@ Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le
     <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
    
    <!--Signature -->
-   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress>
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress></br>
 
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 </body>
 
 </html>
 ```
-
+**Tu remarqueras que la page n'est pas très beau. Nous faire la mise en page de notre page.(^-^)**
 
 
 # 1. Comment utiliser la feuille de style?
