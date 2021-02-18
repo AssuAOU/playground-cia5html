@@ -19,10 +19,10 @@ Dans ce tutoriel, nous allons faire la **deuxième méthode** pour des questions
 #### Méthode 1
 Voici comment appliquer cette méthode:
 
-* Avec votre éditeur de code, dans le dossier où se trouve le document HTML, créez un fichier et sauvegardez le sous le nom styles.css
+* Avec un éditeur de code(Block note, Notepad++,sublime Text), dans le dossier où se trouve le document HTML, créer un fichier et sauvegarder le sous le nom styles.css
 L'extension .css indique que c'est un fichier CSS.
 
-* Pour lier styles.css à index.html ajoutez la ligne suivante dans la section <head> du document HTML :
+* Pour lier styles.css à index.html ajouter la ligne suivante dans la section <head> du document HTML :
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
