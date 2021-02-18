@@ -10,13 +10,32 @@ pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et 
 # 1. Comment utiliser la feuille de style?
 Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des CSS, tout en apprenant des choses pratiques sur le langage.
 Il y'a plusieurs façon pour appliquer CSS à un document:
-* On peut écrire les règles directement `dans le document HTML`.
-* On peut écrire les règles `dans un fichier à part` et créer un lien vers la feuille de style CSS depuis l'en-tête (dans head) du document HTML.
 
-Dans ce tutoriel, nous allons faire la première méthode pour des questions pratique **MAIS** la deuxième méthode est la plus utilisée et la plus "propre".
+1. On peut écrire les règles `dans un fichier à part` et créer un lien vers la feuille de style CSS depuis l'en-tête (dans head) du document HTML.
+2. On peut écrire les règles directement `dans le document HTML`.
+
+Dans ce tutoriel, nous allons faire la **deuxième méthode** pour des questions pratique **MAIS** la première méthode est la plus utilisée et la plus "propre".
 
 #### Méthode 1
-Voici comment appliquer la première méthode:
+Voici comment appliquer cette méthode:
+
+* Avec votre éditeur de code, dans le dossier où se trouve le document HTML, créez un fichier et sauvegardez le sous le nom styles.css
+L'extension .css indique que c'est un fichier CSS.
+
+* Pour lier styles.css à index.html ajoutez la ligne suivante dans la section <head> du document HTML :
+```html
+<link rel="stylesheet" href="styles.css">
+```
+Et enfin, il suffira d'ajouter les règles de style dans le document styles.css les un à la suite des autres. Comme dans l'éxemple suivant, où on met les paragraphes en rouge.
+
+```html
+p {
+  color: red;
+  }
+```
+
+#### Méthode 2
+Voici comment appliquer cette méthode:
 Dans le document html, ajouter les lignes suivantes dans l'en-tête (dans "body").
 ```html
 <style type="text/css">
@@ -34,21 +53,12 @@ Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
   color: red;
   }
 ```
-#### Méthode 2
-Voici comment applique la deuxième méthode:
 
-* Avec votre éditeur de code, dans le dossier où se trouve le document HTML, créez un fichier et sauvegardez le sous le nom styles.css.
-L'extension .css indique que c'est un fichier CSS.
-
-* Pour lier styles.css à index.html ajoutez la ligne suivante dans la section <head> du document HTML :
-```html
-<link rel="stylesheet" href="styles.css">
-```
 
 Cet élément <link> indique au navigateur la présence d'une feuille de style, grâce à l'attribut rel ; la valeur de l'attribut href donne la localisation du fichier CSS.
 Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.
 
-# Mise en forme des éléments HTML
+# Mise en forme de notre page
 
 On commencer par modifier la couleur de fond de la page WEB. Et la couleur de police.
 On va mettre le fond en noir et le texte en blanc.
@@ -60,9 +70,10 @@ body{
   }
 ```
 
-**A toi**
-Clique sur `RUN` pour voir le résultat.
-Ensuite, modifie le code pour afficher le texte en ***Rouge*** et le fond en ***vert***.
+**A toi**</br>
+Clique sur `RUN` pour voir le résultat.</br>
+Ensuite, modifie le code pour afficher le texte en ***Rouge*** (red) et le fond en ***vert***(green).</br>
+Clique sur `SUCCESS` pour relancer la page et voir le résultat.
 
 ```html runnable
 <!DOCTYPE html>
