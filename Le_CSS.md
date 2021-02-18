@@ -22,7 +22,7 @@ Dans le document html, ajouter les lignes suivantes dans l'en-tête (dans "body"
 <style type="text/css">
  
  </style>
-```html
+```
 
 Et écrire les règles dans la balise `<style></style>`.
 Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
@@ -46,7 +46,6 @@ L'extension .css indique que c'est un fichier CSS.
 ```
 
 Cet élément <link> indique au navigateur la présence d'une feuille de style, grâce à l'attribut rel ; la valeur de l'attribut href donne la localisation du fichier CSS.
-Pour tester que le lien fonctionne, nous allons définir une règle dans styles.css.
 Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.
 
 # Mise en forme des éléments HTML
@@ -58,7 +57,7 @@ On va mettre le fond en noir et le texte en blanc
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ceci est le titre de cette page</title>
+  <title>Bienvenue à la cité scolaire</title>
  
   <style type="text/css">
   body{
@@ -69,12 +68,24 @@ On va mettre le fond en noir et le texte en blanc
 </head>
 
 <body>
-    <h1>Titre principal</h1> 
-    <h2>Titre de section</h2>
-    <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p>
-    <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p>
+    <!-- Menu de navigation du site-->
+    <ul>
+        <li>Accueil</li>
+        <li>Actualitéd</li>
+        <li>La cité scolaire</li>
+        <li>Classes et options</li>
+        <li>Examen</li>
+        <li>L'accès à Pronote et NEO</li>
+    </ul>
+    <h1>Accueil</h1> 
+    <h1>Bienvenue à la cité scolaire</h1> 
+    <h3>Titre de section</h3>
+    <p> La cité sclaire est ouverte du lundi au samedi. Pour joindre l'accueil, il faut composer le 0269 70 71 72</p>
+    <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 
+   <!--Signature -->
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress>
 </body>
 
 </html>
