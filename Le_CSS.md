@@ -20,6 +20,7 @@ Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le
 
 <body>
     <!-- Menu de navigation du site-->
+    <img src="https://cdn.pixabay.com/photo/2017/07/04/10/07/board-2470557_960_720.jpg" alt="Never Give up" />
     <ul>
         <li>Accueil</li>
         <li>Actualité</li>
