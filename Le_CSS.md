@@ -7,6 +7,44 @@ Alors que HTML s'utilise pour définir la structure du contenu, les CSS sont emp
 Ainsi par exemple, vous utiliserez les CSS pour modifier les POLICE, la `couleur`, la taille et l'e s p a c e m e n t de votre contenu,
 pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et autres fonctionnalités décoratives.
 
+Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le résultat. Tu remarqueras que la page n'est pas très beau. (^-^)
+```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bienvenue à la cité scolaire</title>
+
+ </style>
+</head>
+
+<body>
+    <!-- Menu de navigation du site-->
+    <ul>
+        <li>Accueil</li>
+        <li>Actualité</li>
+        <li>La cité scolaire</li>
+        <li>Classes et options</li>
+        <li>Examens</li>
+        <li>L'accès à Pronote et NEO</li>
+    </ul>
+    <h1>Accueil</h1> 
+    <h1>Bienvenue à la cité scolaire</h1> 
+    <h3>Horaires</h3>
+    <p> La cité sclaire est ouverte du lundi au samedi. Pour joindre l'accueil, il faut composer le 0269 70 71 72</p>
+    <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
+   
+   <!--Signature -->
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress>
+
+    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
+</body>
+
+</html>
+```
+
+
+
 # 1. Comment utiliser la feuille de style?
 Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des CSS, tout en apprenant des choses pratiques sur le langage.
 Il y'a plusieurs façon pour appliquer CSS à un document:
