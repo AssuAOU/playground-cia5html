@@ -26,10 +26,13 @@ L'extension .css indique que c'est un fichier CSS.
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
+Cet élément <link> indique au navigateur la présence d'une feuille de style, grâce à l'attribut rel ; la valeur de l'attribut href donne la localisation du fichier CSS.
+Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.</br>
+
 Et enfin, il suffira d'ajouter les règles de style dans le document styles.css les un à la suite des autres. Comme dans l'éxemple suivant, où on met les paragraphes en rouge.
 
 ```html
-p {
+p{
   color: red;
   }
 ```
@@ -39,7 +42,7 @@ Voici comment appliquer cette méthode:
 Dans le document html, ajouter les lignes suivantes dans l'en-tête (dans "body").
 ```html
 <style type="text/css">
- 
+    <!-- Zone de saisie des règles CSS-->
  </style>
 ```
 
@@ -48,15 +51,11 @@ Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
 
 ```html
  <style type="text/css">
-  
-  p {
-  color: red;
-  }
+    p {
+        color: red;
+    }
+</style>
 ```
-
-
-Cet élément <link> indique au navigateur la présence d'une feuille de style, grâce à l'attribut rel ; la valeur de l'attribut href donne la localisation du fichier CSS.
-Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.
 
 # Mise en forme de notre page
 
