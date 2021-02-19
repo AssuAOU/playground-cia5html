@@ -60,11 +60,11 @@ Pour plus de détails, vous pouvez regarder la vidéo suivante:
 Dans cette méthode, il suffit :
 * de se connecter à un interpréteur html en ligne, comme celui-ci après:
 
-[Intepréteur HTML](https://jsfiddle.net/)
+[Intepréteur HTML jsfiddle](https://jsfiddle.net/)
 * Puis de saisir du code html, comme le code ci-dessus et vous avez directement ce que ça donne.
 
 #### A toi
-Copie le code html ci-dessus dans l'interpréteur décrit plus haut et observe le résultat.
+Copie le code html de la méthode 1  dans l'interpréteur [Intepréteur HTML jsfiddle](https://jsfiddle.net/) observe le résultat.
 ---
 ?[Qu'as-tu comme résultat?]
 -[ ] Ceci est mon titre
@@ -73,7 +73,7 @@ Copie le code html ci-dessus dans l'interpréteur décrit plus haut et observe l
 -[ ] (~_~)  
 ---
 
-Pour la suite de ce tutoriel, on utilisera la deuxième méthode pour découvrir les bases HTML.
+Pour la suite de ce tutoriel, on utilisera la `deuxième méthode` pour découvrir les bases HTML.
 Mais pour aller plus loin dans la comphréhension du langage, il faudra adopter la première méthode.
 Pour la suite du tutoriel, l'interpréteur sera `inclus dans cette page` pour des raisons pratiques.
 
