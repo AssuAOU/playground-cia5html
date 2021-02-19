@@ -68,3 +68,4 @@ Ici, tu pourras tester ton code.
 <https://www.w3.org/Style/Examples/011/firstcss.fr.html>
 <https://assemble.io/docs/Cheatsheet-Markdown.html>
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web>
+<http://blogavecblogger.blogspot.com/2015/02/integrer-un-fichier-stocke-dans-google.html>
