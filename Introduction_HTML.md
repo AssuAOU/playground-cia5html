@@ -188,6 +188,16 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
 </html>
 ```
 
+# Ajouter un lien
+Nous allons finir cette partie en ajoutant un lien à la fin de notre page.
+Le WEB existe grâce aux liens. Pour ajouter un lien, il faut utiliser la balise <a>, comme le montre l'exemple suivant.
+
+```html
+<a href="https://pixees.fr/informatiquelycee/n_site/snt.html">Cours sur le SNT</a>
+```
+
+
+
 ## Questionnaire QCM
 
 Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce qui précède si tu as un doute.
