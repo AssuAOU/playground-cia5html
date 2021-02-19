@@ -1,10 +1,10 @@
-title: Apprendre le HTML et le CSS
+title: Apprendre le HTML et le CSS en seconde
 plan:
 - title: Bienvenue
   statement: statement.md
-- title: HTML Une histoire de balise
+- title: HTML, Une histoire de balise
   statement: Introduction_HTML.md
-- title: Le CSS une histoire de style
+- title: Le CSS, une histoire de style
   statement: Le_CSS.md
-- title: Projet Créer sa page WEB
+- title: Projet, Créer sa page WEB
   statement: Le_HTML.md
