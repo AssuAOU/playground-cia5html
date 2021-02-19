@@ -1,26 +1,24 @@
 # Introduction
 
-Qu'est-ce que le CSS?
+## Qu'est-ce que le CSS?
 
-Les Cascading StyleSheets — ou CSS — (Feuilles de style en cascade) sont la première technique à apprendre après le HTML.
+Les **Cascading StyleSheets** — ou CSS — (Feuilles de style en cascade) sont la première technique à apprendre après le HTML.
 Alors que HTML s'utilise pour définir la structure du contenu, les CSS sont employées pour composer et déterminer l'apparence de ce contenu.
 Ainsi par exemple, vous utiliserez les CSS pour modifier les POLICE, la `couleur`, la taille et l'e s p a c e m e n t de votre contenu,
 pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et autres fonctionnalités décoratives.
 
-Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le résultat.
+Nous allons ajouter du style à la page suivante. Cliquez sur `RUN` pour voir le résultat.
 ```html runnable
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Bienvenue à la cité scolaire</title>
-
- </style>
 </head>
 
 <body>
     <!-- Menu de navigation du site-->
-    <ul>
+    <ul class="navbar">
         <li>Accueil</li>
         <li>Actualité</li>
         <li>La cité scolaire</li>
@@ -43,10 +41,10 @@ Nous allons ajouter du style à la page suivante. Cliquer sur `RUN` pour voir le
 
 </html>
 ```
-**Tu remarqueras que la page n'est pas très belle. Nous allons faire la mise en page de notre page avec le CSS.(^-^)**
+**Vous remarquerez que la page n'est pas très belle. Nous allons faire la mise en page de notre page avec le CSS.(^-^)**
 
 # 1. Comment utiliser la feuille de style?
-Dans ce tutoriel, nous partirons d'un document HTML simple et y appliquerons des CSS, tout en apprenant des choses pratiques sur le langage.
+Dans ce tutoriel, nous partirons du code HTML ci-dessus et y appliquerons des CSS.
 Il y'a plusieurs façon pour appliquer CSS à un document:
 
 1. On peut écrire les règles `dans un fichier à part` et créer un lien vers la feuille de style CSS depuis l'en-tête (dans head) du document HTML.
