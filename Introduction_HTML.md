@@ -54,16 +54,16 @@ L'extension .html indique que c'est un fichier html.
 Sinon, il faut ouvrir un navigateur et cliquer sur "Fichier/Ouvrir" et aller chercher le fichier .html que vous avez crée.
 
 Pour plus de détails, vous pouvez regarder la vidéo suivante:
-![Créer un site en HTML (1/5) - 3 minutes pour coder avec Micode](https://youtu.be/KsCUcBK9q14)
+[Créer un site en HTML (1/5) - 3 minutes pour coder avec Micode](https://youtu.be/KsCUcBK9q14)
 
 #### Méthode 2
 Dans cette méthode, il suffit :
 * de se connecter à un interpréteur html en ligne, comme celui-ci après:
 
-![Intepréteur HTML](https://jsfiddle.net/)
+[Intepréteur HTML](https://jsfiddle.net/)
 * Puis de saisir du code html, comme le code ci-dessus et vous avez directement ce que ça donne.
 
-**A toi**
+#### A toi
 Copie le code html ci-dessus dans l'interpréteur décrit plus haut et observe le résultat.
 ---
 ?[Qu'as-tu comme résultat?]
