@@ -47,6 +47,8 @@ Le menu de navigation doit ressembler à ceci:
      <img src="https://octodex.github.com/images/collabocats.jpg" alt="" />
     <a href="https://pixees.fr/informatiquelycee/n_site/snt.html" target="_blank">Cours sur le SNT</a>
 
+    <iframe src="https://docs.google.com/file/d/1rShIoAzesyXwg00bZ2OyzsqUMcuWdSCw/preview" width="800" height="600"></iframe>
+
 </body>
 
 </html>
