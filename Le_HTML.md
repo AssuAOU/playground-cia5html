@@ -6,11 +6,11 @@ Nous allons ici créer notre premier page WEB. Cette page sera dédiée au SNT a
 Voici le cahier des charges de notre page WEB dédiée au SNT.
 
 Le menu de navigation doit ressembler à ceci:
-* `Page d'accueil`
-* `Thème 1: Internet`
-* `Thème 2: Le WEB`
-* `Thème 3: Les réseaux sociaux`
-* `Thème Transverse: La programmation`
+* Page d'accueil
+* Thème 1: Internet
+* Thème 2: Le WEB
+* Thème 3: Les réseaux sociaux
+* Thème Transverse: La programmation
 
 * La couleur de fond doit être noire
 * Les écritures doivent être blanches sauf les Titres (h1 à h3) qui doivent être vertes
@@ -26,8 +26,7 @@ Le menu de navigation doit ressembler à ceci:
   <title>La SNT au collège</title>
 </head>
 
-<body>
-    
+<body>    
     <ul class="navbar">
       <li>Page d'accueil</li>
       <li>Thème 1: Internet</li>
