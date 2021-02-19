@@ -20,6 +20,63 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br/>
 <p>Grâce au HTML tu vas pouvoir, dans ton navigateur (Firefox, Chrome, Opera,....), afficher du texte, afficher des images, proposer des hyperliens (liens vers d'autres pages web), afficher des formulaires et même maintenant afficher des vidéos (grâce à la dernière version du HTML, l'HTML5).
 </p>
  
+# 1. Comment coder en HTML?
+Dans ce tutoriel, nous écrirons du code HTML directement sur ce navigateur.
+Cepandant, ll y'a plusieurs façon pour pour coder en HTML:
+
+1. On peut créer un fichier à l'aide d'un éditeur de code (Blocknote, notepad++, SublimeText) et ensuite ouvrir le fichier avec un navigateur WEB.
+2. On peut on peut utiliser un interpréteur HTML sur le WEB qui lira le code HTML et l'interprétera sur le navigateur.
+
+Dans ce tutoriel, nous allons faire la **deuxième méthode** pour des questions pratique **MAIS** la première méthode est la plus utilisée et la plus "propre".
+
+#### Méthode 1
+Voici comment appliquer cette méthode:
+
+* Avec un éditeur de code(Block note, Notepad++,sublime Text) créer un fichier et sauvegarder le sous le nom index.html (ou autre nom).
+L'extension .html indique que c'est un fichier html.
+
+* Ecrire son code en HTML, comme le code suivant et enregistrer le fichier:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ceci est mon titre</title>
+</head>
+
+<body>
+    <h1>Ma première page en HTML</h1>
+</body>
+
+</html>
+```
+* Enfin, il faut double-cliquer sur le fichier pour l'ouvrir avec votre navigateur par défaut.
+Sinon, il faut ouvrir un navigateur et cliquer sur "Fichier/Ouvrir" et aller chercher le fichier .html que vous avez crée.
+
+Pour plus de détails, vous pouvez regarder la vidéo suivante:
+![Créer un site en HTML (1/5) - 3 minutes pour coder avec Micode](https://youtu.be/KsCUcBK9q14)
+
+#### Méthode 2
+Dans cette méthode, il suffit :
+* de se connecter à un interpréteur html en ligne, comme celui-ci après:
+
+![Intepréteur HTML](https://jsfiddle.net/)
+* Puis de saisir du code html, comme le code ci-dessus et vous avez directement ce que ça donne.
+
+**A toi**
+Copie le code html ci-dessus dans l'interpréteur décrit plus haut et observe le résultat.
+---
+?[Qu'as-tu comme résultat?]
+-[ ] Ceci est mon titre
+-[x] Ma première page en HTML
+-[] Rien
+-[ ] (~_~)  
+---
+
+Pour la suite de ce tutoriel, on utilisera la deuxième méthode pour découvrir les bases HTML.
+Mais pour aller plus loin dans la comphréhension du langage, il faudra adopter la première méthode.
+Pour la suite du tutoriel, l'interpréteur sera `inclus dans cette page` pour des raisons pratiques.
+
 # 2.Squelette d'un document HTML
 
 Voici a quoi ressemble un document html.
