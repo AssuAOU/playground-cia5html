@@ -41,7 +41,7 @@ Voici a quoi ressemblera le menu:
     <p>Python est un langage de programmation facile à prendre en main.</p>
     
      <img src="https://octodex.github.com/images/collabocats.jpg" alt="" />
-    <a href="https://pixees.fr/informatiquelycee/n_site/snt.html">Cours sur le SNT</a>
+    <a href="https://pixees.fr/informatiquelycee/n_site/snt.html" target="_blank">Cours sur le SNT</a>
 
 </body>
 
