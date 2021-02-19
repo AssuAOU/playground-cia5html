@@ -2,16 +2,20 @@
 Nous allons ici créer notre premier page WEB. Cette page sera dédiée au SNT au lycée.
 
 # Le cahier des charges
-Nous allons commencer par donner un titre à notre page. 
 
+Voici le cahier des charges de notre page WEB dédiée au SNT.
 
-Ici, nous allons ajouter un menu de navigation.
-Voici a quoi ressemblera le menu:
+Le menu de navigation doit ressembler à ceci:
 * `Page d'accueil`
 * `Thème 1: Internet`
 * `Thème 2: Le WEB`
 * `Thème 3: Les réseaux sociaux`
 * `Thème Transverse: La programmation`
+
+* La couleur de fond doit être noire
+* Les écritures doivent être blanches sauf les Titres (h1 à h3) qui doivent être vertes
+* Vous devez insérer l'image suivante: `https://octodex.github.com/images/collabocats.jpg`
+* Il doit y avoir un lien qui mène vers le site suivant `https://pixees.fr/informatiquelycee/n_site/snt.html`
 
 **Zone de saisie**
 ```html runnable
@@ -49,6 +53,7 @@ Voici a quoi ressemblera le menu:
 ```
 
 # Zone de saisie
+Ici, tu pourras tester ton code.
 ```html runnable
 
 
