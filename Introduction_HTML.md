@@ -163,9 +163,10 @@ Pour bien débuter en HTML, il est important de connaitres ces quelques balises.
 * `<a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a> : `On peut créer des lien cliquables avec la balise a. La première partie est le lien, la deuxième est la description du lien.
 * `<img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat." /> : `On peut aussi insérer une image: src est la source; alt est la description de l'image.
 
-Clique sur `RUN` pour voir le résultat. Et lit les commentaires pour savoir à quoi sert chaque balise.
+### A toi
+Clique sur `RUN` pour voir le résultat.
 Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la page.
-Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, tout ce qui te passe passe par la tête.
+Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, tout ce qui te passe passe par la tête.</br>
 
 ```html runnable
 <!DOCTYPE html>
@@ -229,8 +230,8 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 <p>Nature, berce-leu chaudement: il a froid.</p>
 ```
 ?[Cette balise correspond à]
--[ ] Le titre
--[ ] Les lignes
+-[ ] un titre
+-[ ] des lignes
 -[x] Un paragraphe
 -[ ] (~_~)  
 
@@ -268,7 +269,7 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 ?[Ce code html décrit]
 -[ ] Du texte en gras.
 -[ ] Un un lien hypertexte.
--[x] Au contenu visible par l'internaute.
+-[x] Un contenu visible par l'internaute.
 -[ ] (^o^)   
 
 ---
@@ -296,11 +297,16 @@ Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la 
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ceci est mon titre</title>
+  <title>Je suis le titre...</title>
 </head>
 
 <body>
-
+    <h1>Le __</h1>
+    <h2>Le berceau ____</h2>
+    <p>Le chercheur britannique Tim Berners-Lee a ___</p>
+    <h2></h2>
+    <p>Le navigateur qui a rendu__</p>
+    <a href="___">Cliquz ici pour___</a>.
 </body>
 
 </html>
