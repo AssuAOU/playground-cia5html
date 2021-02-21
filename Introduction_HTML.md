@@ -158,7 +158,7 @@ Pour bien débuter en HTML, il est important de connaitres ces quelques balises.
 * `<h1>Titre principal</h1> :` Il s'agit du titre principal: Le titre le plus important est h1. Le moins important h6
 * `<h2>Titre de section</h2> :`
 * `<h3>Sous titre</h3> :`
-* `<p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p> :`C'est ici que l'on écrira nos paragraphes
+* `<p> Ce ceci est un paragraphe. Je peux écrire ici autant que je veux.</p> :`C'est ici que l'on écrira nos paragraphes
 * `<p>J'ai mis en <strong>gras</strong> le mot gras gros!</p> : `On peut mettre en gras avec la balise strong
 * `<a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a> : `On peut créer des lien cliquables avec la balise a. La première partie est le lien, la deuxième est la description du lien.
 * `<img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat." /> : `On peut aussi insérer une image: src est la source; alt est la description de l'image.
@@ -179,7 +179,7 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
 <body>
     <h1>Titre principal</h1> 
     <h2>Titre de section</h2>
-    <p> Ce ceci est une paragraphe. Je peux écrire ici autant que je veux.</p>
+    <p> Ce ceci est un paragraphe. Je peux écrire ici autant que je veux.</p>
     <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p>
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
     <img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat qui prend une photo." />
@@ -187,16 +187,6 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
 
 </html>
 ```
-
-# Ajouter un lien
-Nous allons finir cette partie en ajoutant un lien à la fin de notre page.
-Le WEB existe grâce aux liens. Pour ajouter un lien, il faut utiliser la balise <a>, comme le montre l'exemple suivant.
-
-```html
-<a href="https://pixees.fr/informatiquelycee/n_site/snt.html">Cours sur le SNT</a>
-```
-
-
 
 ## Questionnaire QCM
 
