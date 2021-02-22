@@ -1,6 +1,4 @@
-# Introduction
-
-## Qu'est-ce que le CSS?
+# 1: Introduction: Qu'est-ce que le CSS?
 
 Les **Cascading StyleSheets** — ou CSS — (Feuilles de style en cascade) sont la première technique à apprendre après le HTML.
 Alors que HTML s'utilise pour définir la structure du contenu, les CSS sont employées pour composer et déterminer l'apparence de ce contenu.
@@ -43,7 +41,7 @@ Nous allons ajouter du style à la page suivante. Cliquez sur `RUN` pour voir le
 ```
 **Vous remarquerez que la page n'est pas très belle. Nous allons faire la mise en page de notre page avec le CSS.(^-^)**
 
-# 1. Comment utiliser la feuille de style?
+# 2. Comment utiliser la feuille de style?
 Dans ce tutoriel, nous partirons du code HTML ci-dessus et y appliquerons des CSS.
 Il y'a plusieurs façon pour appliquer CSS à un document:
 
@@ -93,7 +91,7 @@ Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
 </style>
 ```
 
-# Mise en forme de notre page
+# 3. Mise en forme de notre page
 
 On commencer par modifier la couleur de fond de la page WEB. Et la couleur de police.
 On va mettre le fond en noir et le texte en blanc.
@@ -193,9 +191,6 @@ On va ensuite changer la couleur des titres et paragraphes.
 </html>
 ```
 
-
-# Bilan
-Dans ce tutoriel nous avons vu plusieurs façons de mettre en forme un document grâce aux règles CSS.
 
 # Sources
 <https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Getting_started>
