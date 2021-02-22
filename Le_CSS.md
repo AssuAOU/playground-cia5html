@@ -191,6 +191,32 @@ On va ensuite changer la couleur des titres et paragraphes.
 </html>
 ```
 
+## Questionnaire QCM
+
+Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce qui précède si tu as un doute.
+
+---
+
+###### QCM 1
+
+?[Que veut dire CSS? ? ]
+-[ ] ^-^
+-[x] Cascading StyleSheets
+-[ ] Caisse de Sécurité Sociale
+-[ ] Cours de Style Sécurisé
+
+---
+
+###### QCM 2
+ 
+?[On utilise le CSS pour ? ]
+-[ ] Programmer le déplacement des images.
+-[x] Stylé du contenu.
+-[ ] Naviguer sur le WEB.
+-[ ] Télécharger des vidéos,images.
+
+---
+
 
 # Sources
 <https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Getting_started>
