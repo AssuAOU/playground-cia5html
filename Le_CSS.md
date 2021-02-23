@@ -220,15 +220,3 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 
 # Sources
 <https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Getting_started>
-
-
-
-
-```{r letter-a, echo=FALSE}
-question("What number is the letter A in the English alphabet?",
-  answer("8"),
-  answer("14"),
-  answer("1", correct = TRUE),
-  answer("23")
-)
-```
