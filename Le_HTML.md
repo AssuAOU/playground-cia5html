@@ -1,7 +1,5 @@
-# Notre première page
-Nous allons ici créer notre premier page WEB. Cette page sera dédiée au SNT au lycée.
-
 # Le cahier des charges
+Nous allons ici créer une page WEB. Cette page sera dédiée au SNT au lycée.
 
 Voici le cahier des charges de notre page WEB dédiée au SNT:
 Titre de la page: La SNT au collège.<br>
