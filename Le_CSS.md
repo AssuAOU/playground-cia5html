@@ -41,6 +41,51 @@ Nous allons ajouter du style à la page suivante. Cliquez sur `RUN` pour voir le
 ```
 **Vous remarquerez que la page n'est pas très belle. Nous allons faire la mise en page de notre page avec le CSS.(^-^)**
 
+## Questionnaire QCM
+
+Vérification de la compréhension du cours.
+
+---
+###### QCM 1
+?[Que veut dire CSS? ]
+-[ ] ^-^
+-[x] Cascading StyleSheets
+-[ ] Caisse de Sécurité Sociale
+-[ ] Cours de Style Sécurisé
+
+---
+###### QCM 2
+?[Comment peut-on traduire CSS en français ? ]
+-[ ] ^ ^
+-[ ] Caisse de Sécurité Sociale
+-[x] Feuilles de style en cascade
+-[ ] Feuilles de Mise en page
+
+---
+###### QCM 2
+?[Le CSS permet de: ]
+-[ ] -_-
+-[ ] Convertir du binaire en décimal avec un navigateur WEB.
+-[ ] Répartir une charge de manière uniforme.
+-[x] Faire la mise en page et décorer une page WEB.
+
+---
+###### QCM 3
+?[on peut utiliser le CSS sans HTML? ]
+-[ ] ^-^
+-[ ] OUI
+-[x] NON
+-[ ] ça dépend de la taille de la page WEB à créer.
+
+---
+###### QCM 4
+?[On peut utiliser le HTML sans le CSS ]
+-[ ] ^-^
+-[ ] OUI
+-[ ] NON
+-[x] Techniquement oui, esthétiquement non
+
+---
 # 2. Comment utiliser la feuille de style?
 Dans ce tutoriel, nous partirons du code HTML ci-dessus et y appliquerons des CSS.
 Il y'a plusieurs façon pour appliquer CSS à un document:
@@ -196,7 +241,6 @@ On va ensuite changer la couleur des titres et paragraphes.
 Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce qui précède si tu as un doute.
 
 ---
-
 ###### QCM 1
 
 ?[Que veut dire CSS? ? ]
