@@ -193,6 +193,7 @@ Vérification de la compréhension du cours.
 
 # 3. Mise en forme de notre page
 
+## La couleur de fond et du texte.
 On commencer par modifier la couleur de fond de la page WEB. Et la couleur de police.
 On va mettre le fond en noir et le texte en blanc.
 Cette action se fait avec le code suivant.
@@ -217,7 +218,7 @@ Clique sur `SUCCESS` pour relancer la page et voir le résultat.
  
   <style type="text/css">
   body{
-    color: white;
+    color: yellow;
     background-color: black
   }
  </style>
@@ -248,9 +249,9 @@ Clique sur `SUCCESS` pour relancer la page et voir le résultat.
 
 </html>
 ```
-
+## Les titres
 On va ensuite changer la couleur des titres. En CSS, on peut cibler plusieurs éléments d'un coup en les listant, séparés par une virgule.
-Si on veut que tous les titres (h1, h2 et h3) et tous les items de liste soient bleu, alors on écrira la règle suivante :
+Si on veut que tous les titres (h1, h2 et h3) et tous les items de liste soient bleus, alors on écrira la règle suivante :
 ```html
 h1, h2, h3, li {
         color: blue;
@@ -258,6 +259,8 @@ h1, h2, h3, li {
 ```
 
 **A toi**
+Clique sur `RUN` et observe le résultat.
+Ensuite change la couleur des titres en Jaune.
 
 ```html runnable
 <!DOCTYPE html>
@@ -268,7 +271,7 @@ h1, h2, h3, li {
  
   <style type="text/css">
   body{
-    color: white;
+    color: yellow;
     background-color: black
   }
   
@@ -304,6 +307,11 @@ h1, h2, h3, li {
 
 </html>
 ```
+**Note importante:** Vous remarquerez que la première règles qu'on a écrit (font noir et texte en jaune) n'est plus totalement respectée.
+En CSS, les règles sont appliquées les une à la suite des autres. Donc, si une règle vient contredire une autre, c'est la dernière qui est prise en compte.
+
+## Ajouter une classe
+
 
 ## Questionnaire QCM
 
