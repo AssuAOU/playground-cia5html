@@ -242,7 +242,7 @@ Clique sur `SUCCESS` pour relancer la page et voir le résultat.
     <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
    
    <!--Signature -->
-   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress>
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress><br>
 
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 </body>
@@ -300,7 +300,7 @@ Ensuite change la couleur des titres en Jaune.
     <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
    
    <!--Signature -->
-   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress>
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress><br>
 
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 </body>
@@ -311,6 +311,85 @@ Ensuite change la couleur des titres en Jaune.
 En CSS, les règles sont appliquées les une à la suite des autres. Donc, si une règle vient contredire une autre, c'est la dernière qui est prise en compte.
 
 ## Ajouter une classe
+Jusqu'ici, nous avons mis en forme des éléments HTML repérés par leur nom de balise.
+Cela fonctionne tant que vous voulez appliquer le même style à tous les éléments de ce type dans le document.
+La plupart du temps ce n'est pas le comportement désiré ;
+il faut donc trouver une méthode pour sélectionner un sous-ensemble des éléments à mettre en forme sans changer l'apparence des autres éléments du même type.
+L'approche la plus commune pour obtenir ce comportement est d'ajouter une classe (pensez à une étiquette) aux éléments HTML à mettre en forme puis de sélectionner cette classe.
+Dans le document HTML, ajouter un  attribut class au deuxième item de la liste :
+```html
+<ul>
+        <li>Accueil</li>
+        <li>Actualité</li>
+        <li>La cité scolaire</li>
+        <li class="special">Classes et options</li> 
+        <li>Examens</li>
+        <li>L'accès à Pronote et NEO</li>
+    </ul>
+```
+Dans le code CSS vous pouvez maintenant cibler la classe special grâce à un sélecteur fait du nom de la classe précédé d'un point.
+Ajoutez le code suivant à votre feuille de style :
+
+```html
+.special {
+  color: orange;
+  font-weight: bold;
+}
+```
+
+Voici le résultat final.
+
+**A toi: Cli**
+```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bienvenue à la cité scolaire</title>
+ 
+  <style type="text/css">
+  body{
+        color: yellow;
+        background-color: black
+  }
+  
+  h1, h2, h3, li {
+        color: blue;
+  }
+
+  .special {
+        color: orange;
+        font-weight: bold;
+    }
+  
+ </style>
+</head>
+
+<body>
+    <!-- Menu de navigation du site-->
+    <ul>
+        <li>Accueil</li>
+        <li>Actualité</li>
+        <li>La cité scolaire</li>
+        <li class="special">Classes et options</li>
+        <li>Examens</li>
+        <li>L'accès à Pronote et NEO</li>
+    </ul>
+    <img src="https://cdn.pixabay.com/photo/2017/07/04/10/07/board-2470557_960_720.jpg" alt="Never Give up" />
+    <h1>Accueil</h1> 
+    <h2>Bienvenue à la cité scolaire</h2> 
+    <h3>Horaires</h3>
+    <p> La cité sclaire est ouverte du lundi au samedi. Pour joindre l'accueil, il faut composer le 0269 70 71 72</p>
+    <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
+   
+   <!--Signature -->
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress><br>
+
+    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
+</body>
+
+</html>
+```
 
 
 ## Questionnaire QCM
@@ -337,7 +416,6 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 -[ ] Télécharger des vidéos,images.
 
 ---
-
 
 # Sources
 <https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Getting_started>
