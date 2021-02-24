@@ -151,8 +151,8 @@ Vérification de la compréhension du cours.
 ###### QCM 2
 ?[L'extension .css indique: ]
 -[ ] -_-
--[x] Qu'on peut faire du CSS et HTML dans ce fichier.
--[ ] Qu'il s'agit d'un fichier CSS.
+-[ ] Qu'on peut faire du CSS et HTML dans ce fichier.
+-[x] Qu'il s'agit d'un fichier CSS.
 -[ ] Qu'on peut ranger ce fichier dans le dossier CSS.
 
 ```html
@@ -166,10 +166,11 @@ Vérification de la compréhension du cours.
 -[x] Dans `<head></head>`
 -[ ] Dans `<css></css>`
 
+
+---
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
----
 ###### QCM 4
 ?[A quoi sert ce code? ]
 -[ ] -_-
@@ -182,13 +183,14 @@ Vérification de la compréhension du cours.
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
----
 ###### QCM 5
 ?[A quoi sert l'attribut href? ]
 -[ ] -_-
--[x] Indique le nom du fichier cCSS
--[ ] Indique le style du CSS
+-[x] Indique le nom (ou chemin) du fichier CSS.
+-[ ] Indique le style du CSS.
 -[ ] Indique la hauteur de la référence styles.css
+
+---
 
 # 3. Mise en forme de notre page
 
