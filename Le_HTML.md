@@ -11,9 +11,9 @@ Titre de la page: La SNT au collège.<br>
 * Il doit y avoir un lien qui mène vers le site suivant `https://pixees.fr/informatiquelycee/n_site/snt.html`
 * Insérer
 
-**Voici à quoi doit ressembler à ceci:**<br>
+**Voici à quoi doit ressembler la page:**<br>
 
-
+Titre de la page: La SNT au collège.<br>
 * Page d'accueil
 * Thème 1: Internet
 * Thème 2: Le WEB
