@@ -250,6 +250,7 @@ Clique sur `SUCCESS` pour relancer la page et voir le résultat.
 ```
 
 On va ensuite changer la couleur des titres et paragraphes.
+
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -261,6 +262,10 @@ On va ensuite changer la couleur des titres et paragraphes.
   body{
     color: white;
     background-color: black
+  }
+  <!-- Les titres de niveau h1 seront maintenant en jaune --> 
+  h1 {
+        color: yellow;
   }
   
  </style>
