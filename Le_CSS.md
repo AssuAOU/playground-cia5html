@@ -83,7 +83,7 @@ Vérification de la compréhension du cours.
 -[ ] ^-^
 -[ ] OUI
 -[ ] NON
--[x] Techniquement oui, esthétiquement non
+-[x] Techniquement oui, esthétiquement non ("La page sera moche<sup>100</sup>...")
 
 ---
 # 2. Comment utiliser la feuille de style?
