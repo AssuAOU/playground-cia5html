@@ -258,9 +258,9 @@ h1, h2, h3, li {
   }
 ```
 
-**A toi**
+**A toi**<br>
 Clique sur `RUN` et observe le résultat.
-Ensuite change la couleur des titres en Jaune.
+Ensuite change la couleur des titres en Vert.
 
 ```html runnable
 <!DOCTYPE html>
@@ -311,12 +311,12 @@ Ensuite change la couleur des titres en Jaune.
 En CSS, les règles sont appliquées les une à la suite des autres. Donc, si une règle vient contredire une autre, c'est la dernière qui est prise en compte.
 
 ## Ajouter une classe
-Jusqu'ici, nous avons mis en forme des éléments HTML repérés par leur nom de balise.
-Cela fonctionne tant que vous voulez appliquer le même style à tous les éléments de ce type dans le document.
+Jusqu'ici, nous avons mis en forme des éléments HTML repérés par leur **nom de balise**.
+Cela fonctionne tant que vous voulez appliquer **le même style à tous les éléments de ce type** dans le document.
 La plupart du temps ce n'est pas le comportement désiré ;
 il faut donc trouver une méthode pour sélectionner un sous-ensemble des éléments à mettre en forme sans changer l'apparence des autres éléments du même type.
-L'approche la plus commune pour obtenir ce comportement est d'ajouter une classe (pensez à une étiquette) aux éléments HTML à mettre en forme puis de sélectionner cette classe.
-Dans le document HTML, ajouter un  attribut class au deuxième item de la liste :
+L'approche la plus commune pour obtenir ce comportement est **d'ajouter une classe (pensez à une étiquette)** aux éléments HTML à mettre en forme puis de sélectionner cette classe.
+Dans le document HTML, ajouter un  attribut class au 4eme item de la liste :
 ```html
 <ul>
         <li>Accueil</li>
@@ -339,7 +339,7 @@ Ajoutez le code suivant à votre feuille de style :
 
 Voici le résultat final.
 
-**A toi: Cli**
+**A toi**
 ```html runnable
 <!DOCTYPE html>
 <html>
