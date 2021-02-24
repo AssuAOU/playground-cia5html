@@ -32,7 +32,7 @@ Nous allons ajouter du style à la page suivante. Cliquez sur `RUN` pour voir le
     <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
    
    <!--Signature -->
-   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress></br>
+   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress><br>
 
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 </body>
