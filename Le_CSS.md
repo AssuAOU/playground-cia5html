@@ -1,10 +1,10 @@
 # 1: Introduction: Qu'est-ce que le CSS?
 
-Les <span style="color:red">Cascading StyleSheets</span>. — ou CSS — (Feuilles de style en cascade) sont la première technique à apprendre après le HTML.
+Les **Cascading StyleSheets** — ou CSS — (Feuilles de style en cascade) sont la première technique à apprendre après le HTML.
 Alors que HTML s'utilise pour définir la structure du contenu, les CSS sont employées pour composer et déterminer l'apparence de ce contenu.
 Ainsi par exemple, vous utiliserez les CSS pour modifier les POLICE, la `couleur`, la taille et l'e s p a c e m e n t de votre contenu,
 pour le répartir sur plusieurs colonnes ou bien pour ajouter des animations et autres fonctionnalités décoratives.
-
+GT^23^
 Nous allons ajouter du style à la page suivante. Cliquez sur `RUN` pour voir le résultat.
 ```html runnable
 <!DOCTYPE html>
