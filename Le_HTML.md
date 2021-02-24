@@ -3,11 +3,17 @@ Nous allons ici créer notre premier page WEB. Cette page sera dédiée au SNT a
 
 # Le cahier des charges
 
-Voici le cahier des charges de notre page WEB dédiée au SNT.
+Voici le cahier des charges de notre page WEB dédiée au SNT:
+Titre de la page: La SNT au collège.<br>
+* La couleur de fond doit être noire
+* Les écritures doivent être blanches sauf les Titres (h1 à h3) qui doivent être vertes
+* Vous devez insérer l'image suivante: `https://octodex.github.com/images/collabocats.jpg`
+* Il doit y avoir un lien qui mène vers le site suivant `https://pixees.fr/informatiquelycee/n_site/snt.html`
+* Insérer
 
-Le menu de navigation doit ressembler à ceci:
+Voici à quoi doit ressembler à ceci:
 * Page d'accueil
-* Thème 1: Internet<br>
+* Thème 1: Internet
 * Thème 2: Le WEB
 * Thème 3: Les réseaux sociaux
 * Thème Transverse: La programmation Python
@@ -21,52 +27,9 @@ Internet est un réseau informatique mondial.
 Python est un langage de programmation facile à prendre en main.
     
 
-
-* La couleur de fond doit être noire
-* Les écritures doivent être blanches sauf les Titres (h1 à h3) qui doivent être vertes
-* Vous devez insérer l'image suivante: `https://octodex.github.com/images/collabocats.jpg`
-* Il doit y avoir un lien qui mène vers le site suivant `https://pixees.fr/informatiquelycee/n_site/snt.html`
-
-**Zone de saisie**
-```html runnable
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>La SNT au collège</title>
-</head>
-
-<body>    
-    <ul class="navbar">
-      <li>Page d'accueil</li>
-      <li>Thème 1: Internet</li>
-      <li>Thème 2: Le WEB</li>
-      <li>Thème 3: Les réseaux sociaux</li>
-      <li>Thème Transverse: Python</li>   
-    </ul>
-    
-    <h1>La SNT au lycée</h1>
-    <h2>Qu'est-ce que la SNT au lycée?</h2>
-    <p>La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique et de programmation vus au collège.</p>
-    <h2>Thème 1: Internet</h2>
-    <p>Internet est un réseau informatique mondial.</p>
-    <h2>Thème Transverse: Python</h2>
-    <p>Python est un langage de programmation facile à prendre en main.</p>
-    
-     <img src="https://octodex.github.com/images/collabocats.jpg" alt="" />
-    <a href="https://pixees.fr/informatiquelycee/n_site/snt.html" target="_blank">Cours sur le SNT</a>
-
-    <iframe src="https://docs.google.com/file/d/1rShIoAzesyXwg00bZ2OyzsqUMcuWdSCw/preview" width="800" height="600"></iframe>
-
-</body>
-
-</html>
-```
-
 # Zone de saisie
-Ici, tu pourras tester ton code.
+Ici, tu pourras tester ton code ici.
 ```html runnable
-
 
 
 ```
