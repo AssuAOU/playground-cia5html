@@ -12,6 +12,8 @@ Titre de la page: La SNT au collège.<br>
 * Insérer
 
 Voici à quoi doit ressembler à ceci:
+
+```
 * Page d'accueil
 * Thème 1: Internet
 * Thème 2: Le WEB
@@ -25,13 +27,24 @@ La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique e
 Internet est un réseau informatique mondial.
 ##### Thème Transverse: Python
 Python est un langage de programmation facile à prendre en main.
-    
+```
 
 # Zone de saisie
-Ici, tu pourras tester ton code ici.
+Ici, tu pourras tester ton code ici. Tu peux aussi coder dans un fichier .html et .css
+
 ```html runnable
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ceci est mon titre</title>
+</head>
 
+<body>
+    <h1>Ma première page en HTML</h1>
+</body>
 
+</html>
 ```
 
 ###### Sources :
