@@ -156,10 +156,11 @@ Vérification de la compréhension du cours.
 -[ ] Qu'on peut ranger ce fichier dans le dossier CSS.
 
 ---
+
+###### QCM 3
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
-###### QCM 3
 ?[Ce code doit être placé: ]
 -[ ] -_-
 -[ ] Dans body
@@ -167,10 +168,11 @@ Vérification de la compréhension du cours.
 -[ ] Dans css
 
 ---
+
+###### QCM 4
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
-###### QCM 4
 ?[A quoi sert ce code? ]
 -[ ] -_-
 -[x] Il indique au navigateur la présence d'une feuille de style
@@ -179,10 +181,10 @@ Vérification de la compréhension du cours.
 
 ---
 
+###### QCM 5
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
-###### QCM 5
 ?[A quoi sert l'attribut href? ]
 -[ ] -_-
 -[x] Indique le nom (ou chemin) du fichier CSS.
