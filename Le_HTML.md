@@ -8,6 +8,8 @@ Voici le cahier des charges de notre page WEB dédiée au SNT.
 Le menu de navigation doit ressembler à ceci:
 * Page d'accueil
 * Thème 1: Internet
+    Internet est née à la suite.....
+    Mais voila
 * Thème 2: Le WEB
 * Thème 3: Les réseaux sociaux
 * Thème Transverse: La programmation
