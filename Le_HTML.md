@@ -11,9 +11,9 @@ Titre de la page: La SNT au collège.<br>
 * Il doit y avoir un lien qui mène vers le site suivant `https://pixees.fr/informatiquelycee/n_site/snt.html`
 * Insérer
 
-Voici à quoi doit ressembler à ceci:
+**Voici à quoi doit ressembler à ceci:**<br>
 
-```
+
 * Page d'accueil
 * Thème 1: Internet
 * Thème 2: Le WEB
@@ -27,7 +27,7 @@ La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique e
 Internet est un réseau informatique mondial.
 ##### Thème Transverse: Python
 Python est un langage de programmation facile à prendre en main.
-```
+
 
 # Zone de saisie
 Ici, tu pourras tester ton code ici. Tu peux aussi coder dans un fichier .html et .css
