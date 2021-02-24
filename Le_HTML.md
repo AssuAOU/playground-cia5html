@@ -8,11 +8,19 @@ Voici le cahier des charges de notre page WEB dédiée au SNT.
 Le menu de navigation doit ressembler à ceci:
 * Page d'accueil
 * Thème 1: Internet<br>
-    Internet est née à la suite.....
-    Mais voila
 * Thème 2: Le WEB
 * Thème 3: Les réseaux sociaux
-* Thème Transverse: La programmation
+* Thème Transverse: La programmation Python
+
+#### La SNT au lycée
+##### Qu'est-ce que la SNT au lycée?
+La SNT s’inscrit dans le prolongement de l’algorithmique, d’informatique et de programmation vus au collège.
+#### Thème 1: Internet
+Internet est un réseau informatique mondial.
+##### Thème Transverse: Python
+Python est un langage de programmation facile à prendre en main.
+    
+
 
 * La couleur de fond doit être noire
 * Les écritures doivent être blanches sauf les Titres (h1 à h3) qui doivent être vertes
