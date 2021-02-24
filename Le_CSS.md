@@ -249,7 +249,15 @@ Clique sur `SUCCESS` pour relancer la page et voir le résultat.
 </html>
 ```
 
-On va ensuite changer la couleur des titres et paragraphes.
+On va ensuite changer la couleur des titres. En CSS, on peut cibler plusieurs éléments d'un coup en les listant, séparés par une virgule.
+Si on veut que tous les titres (h1, h2 et h3) et tous les items de liste soient bleu, alors on écrira la règle suivante :
+```html
+h1, h2, h3, li {
+        color: blue;
+  }
+```
+
+**A toi**
 
 ```html runnable
 <!DOCTYPE html>
@@ -263,9 +271,9 @@ On va ensuite changer la couleur des titres et paragraphes.
     color: white;
     background-color: black
   }
-  <!-- Les titres de niveau h1 seront maintenant en jaune --> 
-  h1 {
-        color: yellow;
+  
+  h1, h2, h3, li {
+        color: blue;
   }
   
  </style>
@@ -283,7 +291,7 @@ On va ensuite changer la couleur des titres et paragraphes.
     </ul>
     <img src="https://cdn.pixabay.com/photo/2017/07/04/10/07/board-2470557_960_720.jpg" alt="Never Give up" />
     <h1>Accueil</h1> 
-    <h1>Bienvenue à la cité scolaire</h1> 
+    <h2>Bienvenue à la cité scolaire</h2> 
     <h3>Horaires</h3>
     <p> La cité sclaire est ouverte du lundi au samedi. Pour joindre l'accueil, il faut composer le 0269 70 71 72</p>
     <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
