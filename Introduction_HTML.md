@@ -275,9 +275,9 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 ---
 
 # 4 Excercice d'application.
-**A toi**<br/>
-Complète la squelette ci-desssous en y ajoutant le titre de la page WEB:<br/>
-**Je suis le titre le plus cool de l'histoire du WEB.**<br/>
+**A toi**<br>
+Complète la squelette ci-desssous en y ajoutant le titre de la page WEB:<br>
+**Je suis le titre le plus cool de l'histoire du WEB.**<br>
 
 Dans body, ajouter le texte suivant:<br/>
 **Le WEB** (titre h1)<br/>
@@ -297,7 +297,7 @@ Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la 
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Je suis le titre...</title>
+  <title>Je suis le titre__</title>
 </head>
 
 <body>
