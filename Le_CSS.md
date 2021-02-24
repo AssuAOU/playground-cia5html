@@ -155,17 +155,16 @@ Vérification de la compréhension du cours.
 -[x] Qu'il s'agit d'un fichier CSS.
 -[ ] Qu'on peut ranger ce fichier dans le dossier CSS.
 
+---
 ```html
 <link rel="stylesheet" href="styles.css">
 ```
----
 ###### QCM 3
 ?[Ce code doit être placé: ]
 -[ ] -_-
--[ ] Dans `<body></body>`
--[x] Dans `<head></head>`
--[ ] Dans `<css></css>`
-
+-[ ] Dans body
+-[x] Dans head
+-[ ] Dans css
 
 ---
 ```html
