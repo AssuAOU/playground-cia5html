@@ -135,6 +135,60 @@ Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
     }
 </style>
 ```
+## Questionnaire QCM
+
+Vérification de la compréhension du cours.
+
+---
+###### QCM 1
+?[Est-ce que je peut faire du CSS et du HTML dans le même fichier? ]
+-[ ] ^-^
+-[x] OUI
+-[ ] Qu'est-ce que le HTML et le CSS?
+-[ ] NON
+
+---
+###### QCM 2
+?[L'extension .css indique: ]
+-[ ] -_-
+-[x] Qu'on peut faire du CSS et HTML dans ce fichier.
+-[ ] Qu'il s'agit d'un fichier CSS.
+-[ ] Qu'on peut ranger ce fichier dans le dossier CSS.
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+---
+###### QCM 3
+?[Ce code doit être placé: ]
+-[ ] -_-
+-[ ] Dans `<body></body>`
+-[x] Dans `<head></head>`
+-[ ] Dans `<css></css>`
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+---
+###### QCM 4
+?[A quoi sert ce code? ]
+-[ ] -_-
+-[x] Il indique au navigateur la présence d'une feuille de style
+-[ ] Il indique au navigateur un fichier corrompu
+-[ ] Il sert à décorer le code HTML
+
+---
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+---
+###### QCM 5
+?[A quoi sert l'attribut href? ]
+-[ ] -_-
+-[x] Indique le nom du fichier cCSS
+-[ ] Indique le style du CSS
+-[ ] Indique la hauteur de la référence styles.css
 
 # 3. Mise en forme de notre page
 
