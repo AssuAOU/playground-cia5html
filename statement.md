@@ -1,8 +1,12 @@
 # Introduction
-Dans ce tutoriel, vous allez apprendre ce qu'est le  HTML et le CSS. Pour illustrer les notions qui seront abbordées, des exercices vous seront proposés au fur et à mesure.
+Dans ce tutoriel, vous allez apprendre ce qu'est le  HTML et le CSS. Ce tutoriel s'adresse particulièrement aux élèves de seconde, qui découvrent les langages du WEB.
+Pour illustrer les notions qui seront abbordées, des exercices vous seront proposés au fur et à mesure.
 Il faudra bien lire le contenu et faire les exercices.
 
-Dans un prermier, vous apprendrez ce qu'est le HTML, puis le CSS. Enfin, vous aurez u projet à faire.
+Ce tutoriel est divisé en 3 parties:
++ Dans un premier temps, vous apprendrez ce qu'est le HTML
++ Puis le CSS.
++ Enfin, vous aurez u projet à faire.
 
 Si vous êtes prêt, alors allons-y!
 
