@@ -79,7 +79,7 @@ Pour la suite du tutoriel, l'interpréteur sera `inclus dans cette page` pour de
 
 # 3.Squelette d'un document HTML
 
-Voici a quoi ressemble un document html.
+Voici à quoi ressemble un document html.
 
 **Squelette d'un document HTML** 
 ```html
