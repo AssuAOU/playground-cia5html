@@ -196,7 +196,7 @@ Vérification de la compréhension du cours.
 # 3. Mise en forme de notre page
 
 ## La couleur de fond et du texte.
-On commencer par modifier la couleur de fond de la page WEB. Et la couleur de police.
+On commencer par modifier la couleur de fond de la page WEB et la couleur de police.
 On va mettre le fond en noir et le texte en blanc.
 Cette action se fait avec le code suivant.
 ```html
@@ -206,9 +206,9 @@ body{
   }
 ```
 
-**A toi**</br>
-Clique sur `RUN` pour voir le résultat.</br>
-Ensuite, modifie le code pour afficher le texte en ***Rouge*** (red) et le fond en ***vert***(green).</br>
+**A toi**<br>
+Clique sur `RUN` pour voir le résultat.<br>
+Ensuite, modifie le code pour afficher le texte en ***Rouge*** (red) et le fond en ***vert***(green).<br>
 Clique sur `SUCCESS` pour relancer la page et voir le résultat.
 
 ```html runnable
@@ -330,7 +330,7 @@ Dans le document HTML, ajouter un  attribut class au 4eme item de la liste :
     </ul>
 ```
 Dans le code CSS vous pouvez maintenant cibler la classe special grâce à un sélecteur fait du nom de la classe précédé d'un point.
-Ajoutez le code suivant à votre feuille de style :
+Ajoutez le code suivant dans head :
 
 ```html
 .special {
@@ -339,9 +339,11 @@ Ajoutez le code suivant à votre feuille de style :
 }
 ```
 
-Voici le résultat final.
+**A toi**<br>
+Cliquez sur `RUN` pour voir le résultat.
+Puis rajoutez une classe que vous appelerez `internet` pour que seul l'item **"L'accès à Pronote et Néo"** soient en violet.
 
-**A toi**
+
 ```html runnable
 <!DOCTYPE html>
 <html>
@@ -358,7 +360,7 @@ Voici le résultat final.
   h1, h2, h3, li {
         color: blue;
   }
-    <!--lolk--->
+    
   .special {
         color: orange;
         font-weight: bold;
@@ -400,21 +402,30 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 
 ---
 ###### QCM 1
-
-?[Que veut dire CSS? ? ]
+```html
+body{
+    color: purple;
+    background-color: yellow
+  }
+```
+?[Que fait ce code? ]
 -[ ] ^-^
--[x] Cascading StyleSheets
--[ ] Caisse de Sécurité Sociale
--[ ] Cours de Style Sécurisé
+-[ ] Met  le fond en violet et la couleur de police en jaune
+-[x] Met  le fond en jaune et la couleur de police en violet
+-[ ] Permet de dire qu'il s'agit d'un code HTML (body)
 
 ---
 
 ###### QCM 2
- 
-?[On utilise le CSS pour ? ]
+ ```html
+h1, h2, h3, li {
+        color: blue;
+  }
+```
+?[Que fait ce code? ]
 -[ ] Programmer le déplacement des images.
--[x] Stylé du contenu.
--[ ] Naviguer sur le WEB.
+-[x] Met h1 en bleu
+-[x] Met h2 en bleu
 -[ ] Télécharger des vidéos,images.
 
 ---
