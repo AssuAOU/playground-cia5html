@@ -386,10 +386,10 @@ Puis rajoutez une classe que vous appelerez `internet` pour que seul l'item **"L
     <p> La cité sclaire est ouverte du lundi au samedi. Pour joindre l'accueil, il faut composer le 0269 70 71 72</p>
     <p>En cas d'urgence, contacter le <strong>06 39 40 41 42</strong>.</p>
    
-   <!--Signature -->
-   <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress><br>
+    <!--Signature -->
+    <adress>Site crée en Mars 2020 par les classes de 2nd A et B.</adress><br>
 
-    <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
+    <a href="https://www.ac-mayotte.fr/">Cliquez ici pour vous rendre sur le site de l'académie de Mayotte</a>.
 </body>
 
 </html>
@@ -424,11 +424,40 @@ h1, h2, h3, li {
 ```
 ?[Que fait ce code? ]
 -[ ] Programmer le déplacement des images.
--[x] Met h1 en bleu
--[x] Met h2 en bleu
--[ ] Télécharger des vidéos,images.
+-[x] Met les titres h1 en bleu
+-[x] Met les titres h2 en bleu
+-[ ] Met uniquement les titres h3 en bleu
 
 ---
+###### QCM 3
+?[A quoi sert une classe? ]
+-[ ] Programmer le déplacement des images.
+-[ ] appliquer le même style à tous les éléments de ce type
+-[x] appliquer un style à un élément en particulier
+-[ ] Classer le code par niveau
 
+---
+###### QCM 4
+```html
+.special {
+  color: orange;
+  font-weight: bold;
+}
+```
+?[Que fait ce code? ]
+-[ ] Indique une zone spéciale qui ne sera pas prise en compte par le navigateur.
+-[ ] Appliquer le même style à tous les éléments de ce type
+-[x] Met les élments de la classe special en orange et en gras.
+-[ ] Indique la présence d'une ligne en orange.
+
+---
+###### QCM 4
+?[Comment faire pour cibler une classe ]
+-[ ] Il faut mettre le nom de la classe dans des balises.
+-[ ] Il faut simplement écrire le nom de la classe.
+-[x] Il faut écrire le nom de la classe précédé d'un point.
+-[ ] Il faut mettre le nom de la classe en commentaire
+
+---
 # Sources
 <https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Getting_started>
