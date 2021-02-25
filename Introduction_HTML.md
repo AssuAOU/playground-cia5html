@@ -7,7 +7,7 @@ Ici, nous allons voir ce qu'est le HTML et certaines balises importantes.
 
 # 1. Qu'est-ce que le HTML?
 HTML n'est pas un langage de programmation (comme le Python par exemple), ici, pas question de conditions, de boucles....c'est un langage de description.
-On cherche plutôt à présenter un contenu (texte, image, son, vidéo). La desciption se fait avec des ```balises```.
+On cherche plutôt à présenter un contenu (texte, image, son, vidéo). La description se fait avec des ```balises```.
 
 Par exemple, si on veut écrire:<br/>
 
@@ -63,8 +63,8 @@ Dans cette méthode, il suffit :
 [Intepréteur HTML jsfiddle](https://jsfiddle.net/)
 * Puis de saisir du code html, comme le code ci-dessus et vous avez directement le résultat.
 
-#### A toi
-Copier le code html de la méthode 1  dans l'interpréteur [Intepréteur HTML jsfiddle](https://jsfiddle.net/) observe le résultat.
+#### A toi <br>
+Copier le code html de la méthode 1  dans l'interpréteur [Intepréteur HTML jsfiddle](https://jsfiddle.net/) et observe le résultat.
 ---
 ?[Qu'as-tu comme résultat?]
 -[ ] Ceci est mon titre
@@ -77,11 +77,11 @@ Pour la suite de ce tutoriel, on utilisera la `deuxième méthode` pour découvr
 Mais pour aller plus loin dans la comphréhension du langage, il faudra adopter la première méthode.
 Pour la suite du tutoriel, l'interpréteur sera `inclus dans cette page` pour des raisons pratiques.
 
-# 3.Squelette d'un document HTML
+# 3.Structure d'un document HTML
 
 Voici à quoi ressemble un document html.
 
-**Squelette d'un document HTML** 
+**Structure d'un document HTML** 
 ```html
 <!DOCTYPE html>
 <html>
@@ -97,7 +97,7 @@ Voici à quoi ressemble un document html.
 </html>
 ```
 
-**Explication de l'anatomie du document.**
+**Explication de la structure du document.**
 
 Ce document contient les éléments suivants:
 * `<!DOCTYPE html>`: Le type de document. Ici, on dit qu'il s'agit d'un document HTML
@@ -109,7 +109,7 @@ Ce document contient les éléments suivants:
 
 # 4. Utilisation des balises
 
-Comme déjà évoqué ci-dessus, en HTML tout est une histoire de balise que l'on ouvre et que l'on ferme.
+Comme déjà évoqué précedement, en HTML tout est une histoire de balise que l'on ouvre et que l'on ferme.
 Une balise ouvrante est de la forme <nom_de_la_balise>, les balises fermantes sont de la forme </nom_de_la_balise>.
 **Chaque balise ouvrante doit être automatiquement fermée.**
 
@@ -125,10 +125,10 @@ Pour transformer une section de contenu dans votre fichier HTML en commentaire, 
 ```html
 <p>Je ne suis pas dans un commentaire</p>
 
-<!-- <p>Je suis un commmentaire! Les internautes ne peuvent pas me voir.</p> -->
+<!-- <p>Je suis un commmentaire! Je ne suis pas visible sur la page WEB.</p> -->
 ```
 **A toi**<br>
-Ajoute un commentaire dans la balise `<body></body>` et explique a quoi sert cette balise.
+Ajoute un commentaire dans la balise `<body></body>` et explique à quoi sert cette balise.
 
 Pense à cliquer sur `RUN` pour voir le résultat.
 ```html runnable
@@ -159,9 +159,9 @@ Pour bien débuter en HTML, il est important de connaitres ces quelques balises.
 * `<h2>Titre de section</h2> :`
 * `<h3>Sous titre</h3> :`
 * `<p> Ce ceci est un paragraphe. Je peux écrire ici autant que je veux.</p> :`C'est ici que l'on écrira nos paragraphes
-* `<p>J'ai mis en <strong>gras</strong> le mot gras gros!</p> : `On peut mettre en gras avec la balise strong
-* `<a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a> : `On peut créer des lien cliquables avec la balise a. La première partie est le lien, la deuxième est la description du lien.
-* `<img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat." /> : `On peut aussi insérer une image: src est la source; alt est la description de l'image.
+* `<p>J'ai mis en <strong>gras</strong> le mot gras!</p> : `On peut mettre en gras avec la balise **strong**
+* `<a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a> : `On peut créer des lien cliquables avec la balise **a**. La première partie est le lien, la deuxième est la description du lien.
+* `<img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat." /> : `On peut aussi insérer une image: **src** est la source; **alt** est la description de l'image.
 
 ### A toi
 Clique sur `RUN` pour voir le résultat.
@@ -180,7 +180,7 @@ Tu peux rajouter des titres de sections, des paragaphes, des liens, des images, 
     <h1>Titre principal</h1> 
     <h2>Titre de section</h2>
     <p> Ce ceci est un paragraphe. Je peux écrire ici autant que je veux.</p>
-    <p>J'ai mis en <strong>gras</strong> le mot gras gros!</p>
+    <p>J'ai mis en <strong>gras</strong> le mot gras!</p>
     <a href="https://www.ac-mayotte.fr/">Cliquz ici pour vous rendre sur le site de l'académie de Mayotte</a>.
     <img src="https://octodex.github.com/images/filmtocat.png" alt="Cette image représente un poulpe-chat qui prend une photo." />
 </body>
@@ -226,11 +226,11 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 
 ###### QCM 4
 ```html
-<p>Nature, berce-leu chaudement: il a froid.</p>
+<p>Nature, berce-le chaudement: il a froid.</p>
 ```
 ?[Cette balise correspond à]
--[ ] un titre
--[ ] des lignes
+-[ ] Un titre
+-[ ] Des lignes
 -[x] Un paragraphe
 -[ ] (~_~)  
 
@@ -252,7 +252,7 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 ```html
 <head></head>
 ```
-?[Ce code html décrit]
+?[Cette balise html  décrit]
 -[x] Des choses qui ne sont pas visible par l'internaute
 -[ ] Des choses visibles par l'internaute
 -[ ] Des paragraphes et des titres de section
@@ -265,7 +265,7 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 <body>
 </body>
 ```
-?[Ce code html décrit]
+?[Cette balise html  décrit]
 -[ ] Du texte en gras.
 -[ ] Un un lien hypertexte.
 -[x] Un contenu visible par l'internaute.
@@ -275,10 +275,10 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 
 # 4 Excercice d'application.
 **A toi**<br>
-Complète la squelette ci-desssous en y ajoutant le titre de la page WEB:<br>
+Complète structure suivante en y ajoutant le titre de la page WEB:<br>
 **Je suis le titre le plus cool de l'histoire du WEB.**<br>
 
-Dans body, ajouter le texte suivant:<br/>
+Dans body, ajoute le texte suivant:<br/>
 **Le WEB** (titre h1)<br/>
 ***Le berceau du WEB***(titre h2)<br/>
 Le chercheur britannique Tim Berners-Lee a inventé le World Wide Web en 1989, lorsqu’il travaillait au CERN.
