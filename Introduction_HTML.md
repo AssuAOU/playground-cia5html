@@ -14,7 +14,7 @@ Par exemple, si on veut écrire:<br/>
 ```html
 La SNT, c'est génial!
 ```
-Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br/>
+Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br>
 `<p>La SNT, c'est génial!</p>`
 
 <p>Grâce au HTML tu vas pouvoir, dans ton navigateur (Firefox, Chrome, Opera,....), afficher du texte, afficher des images, proposer des hyperliens (liens vers d'autres pages web), afficher des formulaires et même maintenant afficher des vidéos (grâce à la dernière version du HTML, l'HTML5).
@@ -22,17 +22,17 @@ Il faut écrire le code suivant, pour dire qu'il s'agit d'un paragraphe. <br/>
  
 # 2. Comment coder en HTML?
 Dans ce tutoriel, nous écrirons du code HTML directement sur ce navigateur.
-Cepandant, ll y'a plusieurs façon pour pour coder en HTML:
+Cependant, ll y'a plusieurs façon pour coder en HTML:
 
-1. On peut créer un fichier à l'aide d'un éditeur de code (Blocknote, notepad++, SublimeText) et ensuite ouvrir le fichier avec un navigateur WEB.
-2. On peut on peut utiliser un interpréteur HTML sur le WEB qui lira le code HTML et l'interprétera sur le navigateur.
+1. On peut créer un fichier à l'aide d'un éditeur de code (Bloc-notes, Notepad++, SublimeText) et ensuite ouvrir le fichier avec un navigateur WEB.
+2. On peut utiliser un interpréteur HTML sur le WEB qui lira le code HTML et l'interprétera sur le navigateur.
 
-Dans ce tutoriel, nous allons faire la **deuxième méthode** pour des questions pratique **MAIS** la première méthode est la plus utilisée et la plus "propre".
+Dans ce tutoriel, nous allons faire la **deuxième méthode** pour des questions pratiques **MAIS** la première méthode est la plus utilisée et la plus "propre".
 
 #### Méthode 1
 Voici comment appliquer cette méthode:
 
-* Avec un éditeur de code(Block note, Notepad++,sublime Text) créer un fichier et sauvegarder le sous le nom index.html (ou autre nom).
+* Avec un éditeur de code(Bloc-notes, Notepad++, Sublime Text) créer un fichier et sauvegarder le sous le nom index.html (ou autre nom).
 L'extension .html indique que c'est un fichier html.
 
 * Ecrire son code en HTML, comme le code suivant et enregistrer le fichier:
@@ -61,10 +61,10 @@ Dans cette méthode, il suffit :
 * de se connecter à un interpréteur html en ligne, comme celui-ci après:
 
 [Intepréteur HTML jsfiddle](https://jsfiddle.net/)
-* Puis de saisir du code html, comme le code ci-dessus et vous avez directement ce que ça donne.
+* Puis de saisir du code html, comme le code ci-dessus et vous avez directement le résultat.
 
 #### A toi
-Copie le code html de la méthode 1  dans l'interpréteur [Intepréteur HTML jsfiddle](https://jsfiddle.net/) observe le résultat.
+Copier le code html de la méthode 1  dans l'interpréteur [Intepréteur HTML jsfiddle](https://jsfiddle.net/) observe le résultat.
 ---
 ?[Qu'as-tu comme résultat?]
 -[ ] Ceci est mon titre
@@ -73,7 +73,7 @@ Copie le code html de la méthode 1  dans l'interpréteur [Intepréteur HTML jsf
 -[ ] (~_~)  
 ---
 
-Pour la suite de ce tutoriel, on utilisera la `deuxième méthode` pour découvrir les bases HTML.
+Pour la suite de ce tutoriel, on utilisera la `deuxième méthode` pour découvrir les bases du HTML.
 Mais pour aller plus loin dans la comphréhension du langage, il faudra adopter la première méthode.
 Pour la suite du tutoriel, l'interpréteur sera `inclus dans cette page` pour des raisons pratiques.
 
@@ -97,7 +97,7 @@ Voici a quoi ressemble un document html.
 </html>
 ```
 
-***Explication de l'anatomie du document.***
+**Explication de l'anatomie du document.**
 
 Ce document contient les éléments suivants:
 * `<!DOCTYPE html>`: Le type de document. Ici, on dit qu'il s'agit d'un document HTML
@@ -111,21 +111,21 @@ Ce document contient les éléments suivants:
 
 Comme déjà évoqué ci-dessus, en HTML tout est une histoire de balise que l'on ouvre et que l'on ferme.
 Une balise ouvrante est de la forme <nom_de_la_balise>, les balises fermantes sont de la forme </nom_de_la_balise>.
-Chaque balise ouvrante doit être automatiquement fermée.
+**Chaque balise ouvrante doit être automatiquement fermée.**
 
 ## 4.1 Les commentaires
 En HTML, comme pour la plupart des langages de programmation, il existe un mécanisme permettant d'écrire des commentaires dans le code.
 Les commentaires sont ignorés par le navigateur et invisibles à l'utilisateur.
 Leur but est de permettre d'inclure des commentaires dans le code pour dire comment il fonctionne, que font les diverses  parties du code, etc.
 Cela peut s'avérer très utile si vous revenez à un codage que vous n'avez pas travaillé depuis 6 mois et que vous ne pouvez pas vous rappeler ce que vous avez fait — ou si vous donnez votre code à quelqu'un d'autre pour qu'il y travaille.<br>
-**Il faut prendre la bonne habitude de toujours documenter son code, cest à dire de mettre des commenter son code.**<br>
+**Il faut prendre la bonne habitude de toujours documenter son code.**<br>
 
-Pour transformer une section de contenu dans votre fichier HTML en commentaire, vous devez la mettre dans les marqueurs spéciaux <!--  et -->, par exemple :
+Pour transformer une section de contenu dans votre fichier HTML en commentaire, vous devez la mettre dans les marqueurs spéciaux`<!--  et -->`, par exemple :
 
 ```html
 <p>Je ne suis pas dans un commentaire</p>
 
-<!-- <p>Je suis dans un commmentaire!</p> -->
+<!-- <p>Je suis un commmentaire! Les internautes ne peuvent pas me voir.</p> -->
 ```
 **A toi**<br>
 Ajoute un commentaire dans la balise `<body></body>` et explique a quoi sert cette balise.
@@ -151,11 +151,11 @@ Pense à cliquer sur `RUN` pour voir le résultat.
 `Analyse:` En cliquant sur RUN, tu as remarqué que seul ce qui est dans body est affiché.
 Les commentaires et ce qui est dans head ne sont pas visibles par l'utilisateur.
 
-## 4.2 Les balises essentiels pour débuter
+## 4.2 Les balises essentielles pour débuter
 
 Pour bien débuter en HTML, il est important de connaitres ces quelques balises.
 
-* `<h1>Titre principal</h1> :` Il s'agit du titre principal: Le titre le plus important est h1. Le moins important h6
+* `<h1>Titre principal</h1> :` Il s'agit du titre principal: Le titre le plus important est h1. Le moins important h6.
 * `<h2>Titre de section</h2> :`
 * `<h3>Sous titre</h3> :`
 * `<p> Ce ceci est un paragraphe. Je peux écrire ici autant que je veux.</p> :`C'est ici que l'on écrira nos paragraphes
@@ -200,8 +200,7 @@ Voici quelques QCM pour voir si tu as bien compris. N'hésite pas à relire ce q
 -[ ] ^-^
 -[x] HyperText Markup Language
 -[ ] HyperText Market Language
--[ ] Hi Teacher MaouLida
-
+-[ ] Hi The Great Teacher Onizuka
 
 ---
 
