@@ -30,10 +30,12 @@ Internet propose trois types de services fondamentaux :
 Le réseau Internet sert également, et de plus en plus, aux communications téléphoniques et à la transmission de vidéos et d'audio en direct (ou streaming), c'est-à-dire à la manièrese d'un téléviur ou d'un récepteur radio. 
 ##### Thème Transverse: Python
 Python est un langage de programmation facile à prendre en main.
+En effet, il est facile à apprendre et à utiliser grâce à ses caractéristiques qui sont peu nombreuses, ce qui permet de créer des programmes rapidement et avec peu d'efforts.
+De plus, sa syntaxe est conçue pour être lisible et directe. 
 
 
 # Zone de saisie
-Ici, tu pourras tester ton code ici. Tu peux aussi coder dans un fichier .html et .css
+Ici, vous pouvez tester votre code. Vous pouvez aussi coder dans des fichier .html et .css
 
 ```html runnable
 <!DOCTYPE html>
@@ -54,6 +56,5 @@ Ici, tu pourras tester ton code ici. Tu peux aussi coder dans un fichier .html e
 
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_HTML>
 <https://www.w3.org/Style/Examples/011/firstcss.fr.html>
-<https://assemble.io/docs/Cheatsheet-Markdown.html>
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web>
 <http://blogavecblogger.blogspot.com/2015/02/integrer-un-fichier-stocke-dans-google.html>
