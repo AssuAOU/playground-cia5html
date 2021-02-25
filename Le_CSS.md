@@ -95,103 +95,8 @@ Il y'a plusieurs façon pour appliquer CSS à un document:
 
 Dans ce tutoriel, nous allons faire la **deuxième méthode** pour des questions pratique **MAIS** la première méthode est la plus utilisée et la plus "propre".
 
-#### Méthode 1
-Voici comment appliquer cette méthode:
+**Les deux méthodes sont détaillées dans l'annexe, à la fin de ce tutoriel.**
 
-* Avec un éditeur de code(Block note, Notepad++,sublime Text), dans le dossier où se trouve le document HTML, créer un fichier et sauvegarder le sous le nom styles.css
-L'extension .css indique que c'est un fichier CSS.
-
-* Pour lier styles.css à index.html ajouter la ligne suivante dans la section <head> du document HTML :
-```html
-<link rel="stylesheet" href="styles.css">
-```
-Cet élément <link> indique au navigateur la présence d'une feuille de style, grâce à l'attribut rel ; la valeur de l'attribut href donne la localisation du fichier CSS.
-Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.</br>
-
-Et enfin, il suffira d'ajouter les règles de style dans le document styles.css les un à la suite des autres. Comme dans l'éxemple suivant, où on met les paragraphes en rouge.
-
-```html
-p{
-  color: red;
-  }
-```
-
-#### Méthode 2
-Voici comment appliquer cette méthode:
-Dans le document html, ajouter les lignes suivantes dans l'en-tête (dans "body").
-```html
-<style type="text/css">
-    <!-- Zone de saisie des règles CSS-->
- </style>
-```
-
-Et écrire les règles dans la balise `<style></style>`.
-Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
-
-```html
- <style type="text/css">
-    p {
-        color: red;
-    }
-</style>
-```
-## Questionnaire QCM
-
-Vérification de la compréhension du cours.
-
----
-###### QCM 1
-?[Est-ce que je peut faire du CSS et du HTML dans le même fichier? ]
--[ ] ^-^
--[x] OUI
--[ ] Qu'est-ce que le HTML et le CSS?
--[ ] NON
-
----
-###### QCM 2
-?[L'extension .css indique: ]
--[ ] -_-
--[ ] Qu'on peut faire du CSS et HTML dans ce fichier.
--[x] Qu'il s'agit d'un fichier CSS.
--[ ] Qu'on peut ranger ce fichier dans le dossier CSS.
-
----
-
-###### QCM 3
-```html
-<link rel="stylesheet" href="styles.css">
-```
-?[Ce code doit être placé: ]
--[ ] -_-
--[ ] Dans body
--[x] Dans head
--[ ] Dans css
-
----
-
-###### QCM 4
-```html
-<link rel="stylesheet" href="styles.css">
-```
-?[A quoi sert ce code? ]
--[ ] -_-
--[x] Il indique au navigateur la présence d'une feuille de style
--[ ] Il indique au navigateur un fichier corrompu
--[ ] Il sert à décorer le code HTML
-
----
-
-###### QCM 5
-```html
-<link rel="stylesheet" href="styles.css">
-```
-?[A quoi sert l'attribut href? ]
--[ ] -_-
--[x] Indique le nom (ou chemin) du fichier CSS.
--[ ] Indique le style du CSS.
--[ ] Indique la hauteur de la référence styles.css
-
----
 
 # 3. Mise en forme de notre page
 
@@ -459,5 +364,115 @@ h1, h2, h3, li {
 -[ ] Il faut mettre le nom de la classe en commentaire
 
 ---
+
+# [Annexe] Comment utiliser la feuille de style?
+Dans ce tutoriel, nous partirons du code HTML ci-dessus et y appliquerons des CSS.
+Il y'a plusieurs façon pour appliquer CSS à un document:
+
+1. On peut écrire les règles `dans un fichier à part` et créer un lien vers la feuille de style CSS depuis l'en-tête (dans head) du document HTML.
+2. On peut écrire les règles directement `dans le document HTML`.
+
+Dans ce tutoriel, nous allons faire la **deuxième méthode** pour des questions pratique **MAIS** la première méthode est la plus utilisée et la plus "propre".
+
+#### Méthode 1
+Voici comment appliquer cette méthode:
+
+* Avec un éditeur de code(Block note, Notepad++,sublime Text), dans le dossier où se trouve le document HTML, créer un fichier et sauvegarder le sous le nom styles.css
+L'extension .css indique que c'est un fichier CSS.
+
+* Pour lier styles.css à index.html ajouter la ligne suivante dans la section <head> du document HTML :
+```html
+<link rel="stylesheet" href="styles.css">
+```
+Cet élément <link> indique au navigateur la présence d'une feuille de style, grâce à l'attribut rel ; la valeur de l'attribut href donne la localisation du fichier CSS.
+Il ne reste plus qu'à ajouter les lignes de code à la feuille de style CSS.</br>
+
+Et enfin, il suffira d'ajouter les règles de style dans le document styles.css les un à la suite des autres. Comme dans l'éxemple suivant, où on met les paragraphes en rouge.
+
+```html
+p{
+  color: red;
+  }
+```
+
+#### Méthode 2
+Voici comment appliquer cette méthode:
+Dans le document html, ajouter les lignes suivantes dans l'en-tête (dans "body").
+```html
+<style type="text/css">
+    <!-- Zone de saisie des règles CSS-->
+ </style>
+```
+
+Et écrire les règles dans la balise `<style></style>`.
+Dans le code ci-après, l'ensemble des paragraphe seront écrits en rouge.
+
+```html
+ <style type="text/css">
+    p {
+        color: red;
+    }
+</style>
+```
+## Questionnaire QCM
+
+Vérification de la compréhension du cours.
+
+---
+###### QCM 1
+?[Est-ce que je peut faire du CSS et du HTML dans le même fichier? ]
+-[ ] ^-^
+-[x] OUI
+-[ ] Qu'est-ce que le HTML et le CSS?
+-[ ] NON
+
+---
+###### QCM 2
+?[L'extension .css indique: ]
+-[ ] -_-
+-[ ] Qu'on peut faire du CSS et HTML dans ce fichier.
+-[x] Qu'il s'agit d'un fichier CSS.
+-[ ] Qu'on peut ranger ce fichier dans le dossier CSS.
+
+---
+
+###### QCM 3
+```html
+<link rel="stylesheet" href="styles.css">
+```
+?[Ce code doit être placé: ]
+-[ ] -_-
+-[ ] Dans body
+-[x] Dans head
+-[ ] Dans css
+
+---
+
+###### QCM 4
+```html
+<link rel="stylesheet" href="styles.css">
+```
+?[A quoi sert ce code? ]
+-[ ] -_-
+-[x] Il indique au navigateur la présence d'une feuille de style
+-[ ] Il indique au navigateur un fichier corrompu
+-[ ] Il sert à décorer le code HTML
+
+---
+
+###### QCM 5
+```html
+<link rel="stylesheet" href="styles.css">
+```
+?[A quoi sert l'attribut href? ]
+-[ ] -_-
+-[x] Indique le nom (ou chemin) du fichier CSS.
+-[ ] Indique le style du CSS.
+-[ ] Indique la hauteur de la référence styles.css
+
+---
+
+
+
 # Sources
 <https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/Getting_started>
