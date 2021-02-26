@@ -1,13 +1,13 @@
 # Le cahier des charges
 Nous allons ici créer une page WEB. Cette page sera dédiée au SNT au lycée.
 
-Voici le cahier des charges de notre page WEB dédiée au SNT:
-Titre de la page: La SNT au collège.<br>
+Voici le cahier des charges de notre page WEB dédiée au SNT:<br>
+Titre de la page: La SNT au lycée.<br>
 * La couleur de fond doit être noire
 * Les écritures doivent être blanches sauf les Titres (h1 à h3) qui doivent être vertes
 * Vous devez insérer l'image suivante: `https://octodex.github.com/images/collabocats.jpg`
 * Il doit y avoir un lien qui mène vers le site suivant `https://pixees.fr/informatiquelycee/n_site/snt.html`
-* Insérer
+* Il faut insérer ce **iframe** dans les balises **body**: `<img src="https://drive.google.com/uc?id=1rShIoAzesyXwg00bZ2OyzsqUMcuWdSCw/" />`
 
 **Voici à quoi doit ressembler la page:**<br>
 
