@@ -33,11 +33,6 @@ Python est un langage de programmation facile à prendre en main.
 En effet, il est facile à apprendre et à utiliser grâce à ses caractéristiques qui sont peu nombreuses, ce qui permet de créer des programmes rapidement et avec peu d'efforts.
 De plus, sa syntaxe est conçue pour être lisible et directe. 
 
-# Questions
-Avant de réaliser le projet, merci de répondre à ces deux questions. Tu peux t'aider d'internet pour les réponses:
-+ Qu'est-ce qu'un **cahier des charges?**
-+ Qu'est-ce qu'un **iframe?**
-
 # Zone de saisie
 Ici, tu peux tester votre code.
 Tu peux aussi coder dans des fichier .html et .css, comme expliqué dans les parties dédiées au HTML et CSS de ce tutoriel.
@@ -45,14 +40,14 @@ Tu peux aussi coder dans des fichier .html et .css, comme expliqué dans les par
 ```html runnable
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Ceci est mon titre</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Ceci est mon titre</title>
+    </head>
 
-<body>
-    <h1>Ma première page en HTML</h1>
-</body>
+    <body>
+        <h1>Ma première page en HTML</h1>
+    </body>
 
 </html>
 ```
