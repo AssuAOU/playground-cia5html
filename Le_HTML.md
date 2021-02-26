@@ -7,7 +7,7 @@ Titre de la page: La SNT au lycée.<br>
 * **Les écritures doivent être blanches** sauf les **Titres (h1 à h3) qui doivent être vertes.**
 * Il faut insérer l'image suivante: `https://octodex.github.com/images/collabocats.jpg`
 * Il doit y avoir un lien qui mène vers le site suivant `https://pixees.fr/informatiquelycee/n_site/snt.html`
-* Il faut insérer ce **iframe** dans les balises **body**: `<iframe src="https://docs.google.com/file/d/1rShIoAzesyXwg00bZ2OyzsqUMcuWdSCw/preview" width="800" height="600"></iframe>`
+
 
 **Voici à quoi doit ressembler la page:**<br>
 
