@@ -60,4 +60,3 @@ Pour rappel, voici la structure de base d'un document HTML.
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_HTML>
 <https://www.w3.org/Style/Examples/011/firstcss.fr.html>
 <https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web>
-<http://blogavecblogger.blogspot.com/2015/02/integrer-un-fichier-stocke-dans-google.html>
