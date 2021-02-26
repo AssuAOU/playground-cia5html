@@ -35,7 +35,7 @@ De plus, sa syntaxe est conçue pour être lisible et directe.
 
 # Tester le code
 Pour tester tond code en ligne en te rendant à l'adresse suivante:
-![Intepréteur HTML en ligne jsfiddle](https://jsfiddle.net/)
+[Intepréteur HTML en ligne](https://htmledit.squarefree.com/)
 
 Tu peux aussi coder dans des fichier .html et .css, comme expliqué dans les parties dédiées au HTML et CSS de ce tutoriel.<br>
 
