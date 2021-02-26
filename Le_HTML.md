@@ -33,11 +33,14 @@ Python est un langage de programmation facile à prendre en main.
 En effet, il est facile à apprendre et à utiliser grâce à ses caractéristiques qui sont peu nombreuses, ce qui permet de créer des programmes rapidement et avec peu d'efforts.
 De plus, sa syntaxe est conçue pour être lisible et directe. 
 
-# Zone de saisie
-Ici, tu peux tester votre code.
-Tu peux aussi coder dans des fichier .html et .css, comme expliqué dans les parties dédiées au HTML et CSS de ce tutoriel.
+# Tester le code
+Pour tester tond code en ligne en te rendant à l'adresse suivante:
+![Intepréteur HTML en ligne jsfiddle](https://jsfiddle.net/)
 
-```html runnable
+Tu peux aussi coder dans des fichier .html et .css, comme expliqué dans les parties dédiées au HTML et CSS de ce tutoriel.<br>
+
+Pour rappel, voici la structure de base d'un document HTML.
+```html
 <!DOCTYPE html>
 <html>
     <head>
