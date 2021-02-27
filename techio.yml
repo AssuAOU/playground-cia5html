@@ -11,4 +11,4 @@ plan:
 projects:
 html:
   root: /html-project
-  runner: html
+  runner: html5
