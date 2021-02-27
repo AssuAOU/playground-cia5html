@@ -8,7 +8,7 @@ plan:
   statement: Le_CSS.md
 - title: Projet, Créer sa page WEB
   statement: Le_HTML.md
-  projects:
-  python:
-    root: /html-project
-    runner: html  
+projects:
+python:
+  root: /html-project
+  runner: html
