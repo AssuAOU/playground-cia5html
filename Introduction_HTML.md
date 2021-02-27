@@ -311,4 +311,4 @@ Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la 
 </html>
 ```
 
-TECHIO> open -s /project/target/html-project test_code.html
+@[Bac à sable]({"stubs": ["test-code.html"], "command": "html test-code.html"})
