@@ -9,6 +9,6 @@ plan:
 - title: Projet, Créer sa page WEB
   statement: Le_HTML.md
 projects:
-python:
+html:
   root: /html-project
   runner: html
