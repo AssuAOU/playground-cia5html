@@ -310,5 +310,3 @@ Tu peux recliquer sur `SUCCESS` autant de fois que nécessaire pour relancer la 
 
 </html>
 ```
-
-@[Test HTML]({"stubs": ["test-code.html"], "command": "html5 test-code.html"})
