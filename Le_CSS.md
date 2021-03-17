@@ -102,7 +102,10 @@ body{
 
 **A toi**<br>
 Clique sur `RUN` pour voir le résultat.<br>
-Ensuite, modifie le code pour afficher le texte en ***rouge*** (red) et le fond en ***vert***(green).<br>
+Ensuite:
++ Modifie le code pour afficher le texte en ***rouge*** (red)
++ Et le fond en ***vert***(green)
+
 Clique sur `SUCCESS` pour relancer la page et voir le résultat.
 
 ```html runnable
@@ -259,6 +262,13 @@ h1, h2, h3, li {
 ---
 
 ###### QCM 9
+?[En CSS, on peut cibler plusieurs éléments d'un coup ]
+-[x] oui c'est vrai.
+-[ ] ça dépend.
+-[ ] non, ce n'est pas possible.
+
+---
+###### QCM 10
 
 ?[En CSS les règles sont appliquées ]
 -[ ] la première arrivée est la première servie.
