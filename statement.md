@@ -6,7 +6,6 @@ Il faudra bien lire le contenu et faire les exercices.
 Ce tutoriel est divisé en 3 parties:
 + Dans un premier temps, vous apprendrez ce qu'est le HTML
 + Puis le CSS.
-+ Enfin, vous aurez un projet à faire.
 
 Si vous êtes prêts, alors allons-y!
 
